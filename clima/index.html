@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Clima</title>
+    <style type="text/css">
+        #container{
+            width: 200px;
+            height: 100px;
+            background-color: #CCC;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin: 0;
+            margin-left: -100px;
+            margin-top: -50px;
+            cursor: move;
+        }
+        #cont-pesq{
+            padding: 5px;
+        }
+        #res{
+            width: 100%;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="cont-pesq">
+            <input type="text" name="city" id="city">
+            <button>Search</button>
+        </div>
+        <div id="res">0°C</div>
+    </div>
+    <script type="text/javascript" src="../../jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

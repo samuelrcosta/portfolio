@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" id="viewport" name="viewport" content="width=device-width user-scalable=no">
+    <title>Vigia</title>
+    <link rel='shortcut icon' href="assets/imgs/icon.png" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="../angular/angular.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/script-antigo.js"></script>
+    <link rel="stylesheet" href="assets/css/style_index.css"/>
+</head>
+<body>
+    <div class="container-fluid" ng-app="meuApp" ng-controller="meuCtrl">
+        <div class="cabecalho">
+            <div class="cabecalho-titulo">
+                <div class="img-titulo"><img width="100" height="100" src="assets/imgs/seg_gg.png"/></div>
+                <h1>School Guard</h1>
+                <h3 id = "painel-data">Dia: </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="linha-r"><hr align="right"></div>
+                <div class="linha-l"><hr align="right"></div>
+                <h3>1º Bimestre</h3>
+                <ul class="list-group">
+                    <li class="item-lista list-group-item" ng-repeat="prova in provas1">
+                        <button class="btn btn-li btn-normal">
+                            <div class="data-prova">
+                                <span class="badge">{{prova.dia+ '/' + prova.mes}}</span>
+                            </div>
+                            {{prova.prova}}
+                            <div class="msg-atraso">
+                                <span class="dias-passados badge" style="display: none" id="p{{prova.n}}"> - <span class="dia">{{prova.dia}}</span>/<span class="mes">{{prova.mes}}</span><span class="entregue">{{prova.entregue}}</span></span>
+                            </div>
+                        </button>
+                        <div class="prova-detalhes" style="display: none">
+                            <ul class="list-group lista-detalhes">
+                                <li class="list-group-item">Professor: {{prova.professor}}</li>
+                                <li class="list-group-item"><span class="nota" style="display: none">{{prova.Nota}}</span>Tipo: N{{prova.tipo}}</li>
+                                <li class="list-group-item" ng-if="prova.entregue == 1">Nota: {{prova.Nota}}</li>
+                                <li class="list-group-item entry-no" ng-if="prova.entregue == 0">Não entregue ainda</li>
+                                <li class="list-group-item" ng-if="prova.anotacao != ''">Anotações: {{prova.anotacao}}</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <div class="linha-r"><hr align="right"></div>
+                <h3>2º Bimestre</h3>
+                <ul class="list-group">
+                    <li class="item-lista list-group-item" ng-repeat="prova in provas2">
+                        <button class="btn btn-li btn-normal">
+                            <div class="data-prova">
+                                <span class="badge">{{prova.dia+ '/' + prova.mes}}</span>
+                            </div>
+                            {{prova.prova}}
+                            <div class="msg-atraso">
+                                <span class="dias-passados badge" style="display: none" id="p{{prova.n}}"> - <span class="dia">{{prova.dia}}</span>/<span class="mes">{{prova.mes}}</span><span class="entregue">{{prova.entregue}}</span></span>
+                            </div>
+                        </button>
+                        <div class="prova-detalhes" style="display: none">
+                            <ul class="list-group lista-detalhes">
+                                <li class="list-group-item">Professor: {{prova.professor}}</li>
+                                <li class="list-group-item"><span class="nota" style="display: none">{{prova.Nota}}</span>Tipo: N{{prova.tipo}}</li>
+                                <li class="list-group-item" ng-if="prova.entregue == 1">Nota: {{prova.Nota}}</li>
+                                <li class="list-group-item entry-no" ng-if="prova.entregue == 0">Não entregue ainda</li>
+                                <li class="list-group-item" ng-if="prova.anotacao != ''">Anotações: {{prova.anotacao}}</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <div class="linha-r"><hr align="right"></div>
+                <h3>3º Bimestre</h3>
+                <ul class="list-group">
+                    <li class="item-lista list-group-item" ng-repeat="prova in provas3">
+                        <button class="btn btn-li btn-normal">
+                            <div class="data-prova">
+                                <span class="badge">{{prova.dia+ '/' + prova.mes}}</span>
+                            </div>
+                            {{prova.prova}}
+                            <div class="msg-atraso">
+                                <span class="dias-passados badge" style="display: none" id="p{{prova.n}}"> - <span class="dia">{{prova.dia}}</span>/<span class="mes">{{prova.mes}}</span><span class="entregue">{{prova.entregue}}</span></span>
+                            </div>
+                        </button>
+                        <div class="prova-detalhes" style="display: none">
+                            <ul class="list-group lista-detalhes">
+                                <li class="list-group-item">Professor: {{prova.professor}}</li>
+                                <li class="list-group-item"><span class="nota" style="display: none">{{prova.Nota}}</span>Tipo: N{{prova.tipo}}</li>
+                                <li class="list-group-item" ng-if="prova.entregue == 1">Nota: {{prova.Nota}}</li>
+                                <li class="list-group-item entry-no" ng-if="prova.entregue == 0">Não entregue ainda</li>
+                                <li class="list-group-item" ng-if="prova.anotacao != ''">Anotações: {{prova.anotacao}}</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <div class="linha-r"><hr align="right"></div>
+                <div class="linha-l"><hr align="right"></div>
+                <h3>4º Bimestre</h3>
+                <ul class="list-group">
+                    <li class="item-lista list-group-item" ng-repeat="prova in provas4">
+                        <button class="btn btn-li btn-normal">
+                            <div class="data-prova">
+                                <span class="badge">{{prova.dia+ '/' + prova.mes}}</span>
+                            </div>
+                            {{prova.prova}}
+                            <div class="msg-atraso">
+                                <span class="dias-passados badge" style="display: none" id="p{{prova.n}}"> - <span class="dia">{{prova.dia}}</span>/<span class="mes">{{prova.mes}}</span><span class="entregue">{{prova.entregue}}</span></span>
+                            </div>
+                        </button>
+                        <div class="prova-detalhes" style="display: none">
+                            <ul class="list-group lista-detalhes">
+                                <li class="list-group-item">Professor: {{prova.professor}}</li>
+                                <li class="list-group-item"><span class="nota" style="display: none">{{prova.Nota}}</span>Tipo: N{{prova.tipo}}</li>
+                                <li class="list-group-item" ng-if="prova.entregue == 1">Nota: {{prova.Nota}}</li>
+                                <li class="list-group-item entry-no" ng-if="prova.entregue == 0">Não entregue ainda</li>
+                                <li class="list-group-item" ng-if="prova.anotacao != ''">Anotações: {{prova.anotacao}}</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

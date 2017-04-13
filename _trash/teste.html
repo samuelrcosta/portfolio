@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <style type="text/css">
+        .div{
+            background-color: #EEE;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        Digite sua altura (Ex.: 1,70 m)<br/>
+        <input type="number" name="h" id="h" required />
+        <br/><br/>
+        Digite seu peso (Ex.: 65,0 Kg)<br/>
+        <input type="number" name="p" id="p" required />
+        <br/><br/>
+        <input type="submit" value="Calcular IMC" id="calc">
+    </form>
+    <br/><br/>
+    <input type="text" name="result" id="r" readonly="true"/>
+    <br/><br/>
+    <div class="div"></div>
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="jquery_mask.js"></script>
+    <script type="text/javascript" src="teste.js"></script>
+</body>
+</html>

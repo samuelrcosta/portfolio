@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" id="viewport" name="viewport" content="width=device-width user-scalable=no">
+    <title>Receita do Bolo</title>
+    <link rel='shortcut icon' href="icone.png" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css"/>
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="../jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div ng-app="meuApp" ng-controller="meuCtrl">
+            <h1>Receita do Bolo</h1>
+            <h3>Busca: <input type="text" ng-model="filtro"/></h3>
+            <table class="table table-bordered table-responsive table-striped">
+                <thead>
+                    <tr>
+                        <th id="ing" ng-click="ordem = 'nome'">Ingrediente</th>
+                        <th id="qnt" ng-click="ordem = 'qt'">Quantidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="order" ng-repeat="ing in ingredientes | filter:filtro | orderBy:ordem">
+                        <td>
+                            {{ing.nome}}
+                        </td>
+                        <td>
+                            {{ing.qt}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <div id="alert-add-success" class="alert alert-success fade in" style="display: none">
+                    <a href="#" class="close" data-dismiss="alert"></a>
+                    Ingrediente adicionado com sucesso!
+                </div>
+                <div id="alert-remove-success" class="alert alert-success fade in" style="display: none">
+                    <a href="#" class="close" data-dismiss="alert"></a>
+                    Ingrediente removido com sucesso!
+                </div>
+                <div id="alert-add-error-nome-qt" class="alert alert-danger fade in" style="display: none">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    Os campos "Nome do Ingrediente" e "Quantidade" devem ser preenchidos.
+                </div>
+                <div id="alert-add-error-nome" class="alert alert-danger fade in" style="display: none">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    O campo "Nome do Ingrediente" deve ser preenchido.
+                </div>
+                <div id="alert-add-error-qt" class="alert alert-danger fade in" style="display: none">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    O campo "Quantidade" deve ser preenchido.
+                </div>
+                <div id="alert-remove-error" class="alert alert-danger fade in" style="display: none">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    Ingrediente não encontrado.
+                </div>
+                <div id="alert-remove-error-nome" class="alert alert-danger fade in" style="display: none">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    O campo "Nome do Ingrediente a ser removido" deve ser preenchido.
+                </div>
+            </div>
+            <button id="btn-add" class="btn btn-success btn-sm" style="margin-bottom: 8px"><span class="badge">+</span>&nbsp; Novo Ingrediente</button>
+            <button id="btn-remove" class="btn btn-danger btn-sm" style="margin-bottom: 8px"><span class="badge">-</span>&nbsp; Remover Ingrediente</button>
+            <div id="div-add" style="display: none">
+                Nome do Ingrediente:<br/>
+                <input type="text" id="i-add" name="i-add" ng-keypress="($event.charCode==13)?add():return" ng-model="i"/>
+                <br/><br/>
+                Quantidade:<br/>
+                <input type="text" id="q-add" name="q-add" ng-keypress="($event.charCode==13)?add():return" ng-model="q"/>
+                <br/><br/>
+                <button class="btn btn-success btn-sm" ng-click="add()">Adicionar</button>
+            </div>
+            <div id="div-remove" style="display: none">
+                Nome do Ingrediente a ser removido:<br/>
+                <input type="text" id="remov" ng-keypress="($event.charCode==13)?remove():return" ng-model="remov"/>
+                <br/><br/>
+                <button class="btn btn-danger btn-sm" ng-click="remove()">Remover</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        var app = angular.module("meuApp", []);
+        app.service('ingredienteService', function() {
+            this.ingredientes = [
+                {'nome':'Farinha', 'qt':'200g'},
+                {'nome':'Ovo', 'qt':4},
+                {'nome':'Chocolate', 'qt':'500g'}
+            ];
+
+            this.add = function(item) {
+                this.ingredientes.push(item);
+            }
+
+            this.getAll = function() {
+                return this.ingredientes;
+            }
+
+        });
+        app.controller("meuCtrl", function($scope, ingredienteService) {
+            $scope.i = null;
+            $scope.q = null;
+            $scope.remov = null;
+            $scope.ingredienteService = ingredienteService;
+            $scope.ingredientes = this.ingredienteService.getAll();
+            $scope.ordem = '';
+            $scope.filtro = '';
+            $scope.ingredientes = [
+                {'nome':'Farinha', 'qt':'200g'},
+                {'nome':'Ovo', 'qt':4},
+                {'nome':'Chocolate', 'qt':'500g'}
+            ];
+
+            $scope.add = function(){
+                if(($scope.i == null && $scope.q == null) || ($scope.i == '' && $scope.q == '')){
+                    $("#alert-add-error-nome").hide('fast');
+                    $("#alert-add-error-qt").hide('fast');
+                    $("#alert-add-error-nome-qt").show('fast');
+                } else if($scope.i == null || $scope.i == ''){
+                    $("#alert-add-error-nome").show('fast');
+                    $("#alert-add-error-qt").hide('fast');
+                    $("#alert-add-error-nome-qt").hide('fast');
+                } else if($scope.q == null || $scope.q == ''){
+                    $("#alert-add-error-qt").show('fast');
+                    $("#alert-add-error-nome").hide('fast');
+                    $("#alert-add-error-nome-qt").hide('fast');
+                } else{
+                    $("#alert-add-error-nome-qt").hide('fast');
+                    $("#alert-add-error-nome").hide('fast');
+                    $("#alert-add-error-qt").hide('fast');
+                    $scope.ingredienteService.add({'nome':$scope.i, 'qt':$scope.q});
+                    $scope.ingredientes = $scope.ingredienteService.getAll();
+                    $scope.i = null;
+                    $scope.q = null;
+                    $("#div-add").slideUp();
+                    $("#alert-add-success").show('fast');
+                    setInterval(function(){
+                        $("#alert-add-success").hide('fast');
+                    },2000);
+                }
+            };
+
+            $scope.remove = function(){
+                if($scope.remov == null || $scope.remov == ''){
+                    $("#alert-remove-error-nome").show('fast');
+                    $("#alert-remove-error").hide('fast');
+                } else {
+                    $("#alert-remove-error-nome").hide('fast');
+                    var indice = -1;
+                    for (i = 0; i < $scope.ingredientes.length; i++) {
+                        if ($scope.ingredientes[i].nome.toLowerCase() == $scope.remov.toLowerCase()) {
+                            indice = i;
+                        }
+                    }
+                    if (indice != -1) {
+                        for (i = indice; i < $scope.ingredientes.length; i++) {
+                            $scope.ingredientes[i] = $scope.ingredientes[i + 1];
+                        }
+                        $scope.ingredientes.pop();
+                        $scope.remov = null;
+                        //$("#alert-remove-error-nome").hide('fast');
+                        $("#div-remove").slideUp();
+                        $("#alert-remove-error").hide('fast');
+                        $("#alert-remove-success").show('fast');
+                        setInterval(function () {
+                            $("#alert-remove-success").hide('fast');
+                        }, 2000);
+                    } else {
+                        $("#alert-remove-error").show('fast');
+                    }
+                }
+            };
+
+        });
+
+        $(function(){
+            $("#btn-add").bind("click", function(){
+                $("#alert-remove-error-nome").hide('fast');
+                $("#alert-remove-error").hide('fast');
+            });
+            $("#btn-remove").bind("click", function(){
+                $("#alert-add-error-nome").hide('fast');
+                $("#alert-add-error-qt").hide('fast');
+                $("#alert-add-error-nome-qt").hide('fast');
+            });
+            $("#ing").css("cursor","pointer");
+            $("#qnt").css("cursor","pointer");
+            $("#ing").bind("click", function() {
+                $("#qnt").css("color", "black");
+                $("#ing").css("color", "blue");
+            });
+            $("#qnt").bind("click", function(){
+                $("#ing").css("color", "black");
+                $("#qnt").css("color", "blue");
+            });
+            $("#btn-add").bind("click", function(){
+                $("#div-remove").slideUp();
+                $("#div-add").slideToggle('fast');
+                $("#i-add").focus();
+            });
+            $("#btn-remove").bind("click", function(){
+                $("#div-add").slideUp();
+                $("#div-remove").slideToggle('fast');
+                $("#remov").focus();
+            });
+        });
+    </script>
+</body>
+</html>

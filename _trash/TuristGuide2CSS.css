@@ -1,0 +1,122 @@
+.corpo{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.menu{
+    float: left;
+    width: 15%;
+    height: 702px;
+    background-color: #CCCCCC;
+}
+.menumobile{
+    display: none;
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #CCCCCC;
+    margin: auto;
+}
+.topo{
+    margin: auto;
+    width: 100%;
+    max-width: 1300px;
+    height: 100px;
+    background-color: #FF8C00;
+}
+
+.rodape{
+    width: 100%;
+    height: 100px;
+    max-width: 1300px;
+    margin: auto;
+    background-color: #A9A9A9;
+    clear: both;
+}
+
+h1{
+    margin-top: 0;
+    text-align: center;
+    font-family: "Open Sans";
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+h3{
+    padding: 6px;
+    margin: 0;
+    font-family: Georgia;
+    font-size: large;
+}
+
+h4{
+    padding: 12px;
+    margin: 0;
+    font-family: Georgia;
+    font-size: large;
+}
+hr{
+    margin: 5px;
+}
+
+.conteudo{
+    width: 100%;
+}
+
+.cidade {
+    width: 85%;
+    margin: auto;
+}
+
+#c1{
+    float: right;
+    text-align: justify;
+}
+#c2{
+    float: right;
+    text-align: justify;
+}
+#c3{
+    float: right;
+    text-align: justify;
+}
+#c4{
+    float: right;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    font-family: Georgia,sans-serif;
+    font-weight: bold;
+    font-size: 17pt;
+    margin: 3px;
+    margin-top: 12px;
+}
+
+p{
+    margin: 10px;
+    text-indent: 2em;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.p2{
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu{
+        display: none;
+    }
+    .menumobile{
+        display: block;
+    }
+    .cidade{
+        width: 100%;
+    }
+    .rodape{
+        height: 80px;
+    }
+}

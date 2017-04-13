@@ -1,0 +1,67 @@
+.container{
+    width: 500px;
+    height: 300px;
+}
+
+.left{
+    width: 235px;
+    height: 270px;
+    float: left;
+    background-color: #A9A9A9;
+    font-size: 200px;
+    text-align: center;
+    line-height: 270px;
+    border: solid 15px #333333;
+    border-right: 7px;
+}
+
+.right{
+    width: 220px;
+    height: 270px;
+    float: left;
+    background-color: #A9A9A9;
+    border: solid 15px #333333;
+    font-size: 300px;
+    text-align: center;
+    line-height: 400px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+}
+
+.numero{
+    width: 100%;
+    height: 100%;
+    font-size: 200px;
+    text-align: center;
+    line-height: 270px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #A9A9A9;
+    border: 0;
+    float: left;
+    font-family: Times;
+}
+
+.campo{
+    width: 470px;
+    height: 70px;
+    border: solid 15px #333333;
+    border-top: 0px;
+    background-color: #A9A9A9;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.botao{
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    font-size: 30px;
+}

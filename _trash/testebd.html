@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste Firebase</title>
+    <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCdWMef430xnATrNN2WPW_TdUhzMO_subE",
+            authDomain: "school-guard.firebaseapp.com",
+            databaseURL: "https://school-guard.firebaseio.com",
+            storageBucket: "school-guard.appspot.com",
+            messagingSenderId: "109493932748"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript" src="testebd.js"></script>
+</head>
+<body>
+    <h1>TESTE 1</h1>
+    <button onclick="criarJson()">CRIAR</button>
+    <button onclick="verBanco()">Ver atualizações</button>
+    <div id="result"></div>
+</body>
+</html>

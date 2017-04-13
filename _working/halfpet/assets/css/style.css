@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Balloony regular;
+    src: url(../fonts/balloony.regular.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Balloony regular;
+    font-size: 90px;
+    color: #D80027;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+footer{
+    background-color: #D80027;
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    height: 50px;
+    text-align: left;
+    font-family: Noto Sans;
+    font-size: 13px;
+}
+
+.footer{
+    position: absolute;
+    left: 10%;
+}
+
+footer div div{
+    height: 20px;
+}
+
+#footer-1{
+    margin-top: 5px;
+}
+
+#logos{
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    margin-left: -400px;
+}
+
+#google-logo{
+    background-image: url("../imgs/badge_google.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 337.5px;
+    height: 100px;
+    float: left;
+    cursor: not-allowed;
+}
+
+#google-logo:hover, #apple-logo:hover{
+    filter: brightness(20%);
+}
+
+#apple-logo{
+    background-image: url("../imgs/badge_apple.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 337.5px;
+    height: 100px;
+    float: right;
+    cursor: not-allowed;
+}
+
+@media only screen and (max-width: 810px) {
+    #logos{
+        width: 700px;
+        margin-left: -350px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #logos{
+        width: 300px;
+        margin-left: -150px;
+    }
+
+    #google-logo{
+        margin-bottom: 15px;
+        width: 300px;
+    }
+
+    #apple-logo{
+        width: 300px;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #logos{
+        width: 250px;
+        margin-left: -125px;
+    }
+
+    #google-logo{
+        margin-bottom: 20px;
+        width: 250px;
+        height: 80px;
+    }
+
+    #apple-logo{
+        width: 250px;
+        height: 80px;
+        float: left;
+    }
+
+    h1{
+        font-size: 70px;
+    }
+
+    h1 img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #logos{
+        width: 250px;
+        margin-left: -125px;
+    }
+
+    #google-logo{
+        margin-bottom: 20px;
+        width: 250px;
+        height: 80px;
+    }
+
+    #apple-logo{
+        width: 250px;
+        height: 80px;
+        float: left;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    h1 img{
+        width: 200px;
+        height: 200px;
+    }
+}

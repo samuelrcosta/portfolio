@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "Kitchen Police";
+    src: url("../fonts/kitchenpolice.ttf");
+}
+
+.cabecalho{
+    margin-top: 15px;
+    width: 100%;
+    height: 110px;
+}
+
+.cabecalho-titulo img{
+    margin-left: 10px;
+}
+
+.cabecalho-titulo h3{
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+
+.cabecalho-titulo{
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+
+.cabecalho-titulo h1{
+    font-family: "Kitchen Police";
+    display: inline-block;
+    font-size: 38px;
+    margin-left: 5px;
+}
+
+.cabecalho-titulo h3 {
+    margin-bottom: 15px;
+}
+.titulo-titulo{
+    float: left;
+    width: 80%;
+}
+.img-titulo{
+    float: left;
+}
+
+.botoes{
+    float: right;
+    margin-bottom: 15px;
+}
+
+.btnlogin{
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+}
+
+.btnlogin:hover {
+    background-color: #4682B4;
+    border-color: #4682B4;
+}
+
+.btnboletim{
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+}
+
+.btnboletim:hover {
+    background-color: #4682B4;
+    border-color: #4682B4;
+}
+
+.seletor{
+    height: 60px;
+    width: 100%;
+    background-color: #3E3E3E;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.seletor h2{
+    line-height: 60px;
+    margin-top: 10px;
+}
+
+.table{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menor{
+    width: 80px;
+}
+
+.th{
+    background-color: #ccc;
+}
+
+.materia{
+    font-weight: bolder;
+}
+
+.previsao{
+    background-color: #B0C4DE;
+}
+
+.legenda{
+    width: 100%;
+    text-align: center;
+}
+
+.legenda div{
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.legenda h5{
+    text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cabecalho-titulo h3 {
+        margin-bottom: 15px;
+    }
+    .titulo-titulo{
+        float: left;
+        width: 80%;
+        text-align: center;
+    }
+    .img-titulo{
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 828px) {
+    .cabecalho {
+        height: 180px;
+    }
+    .legenda h5{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 763px) {
+    .cabecalho {
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cabecalho{
+        height: 280px;
+    }
+    .cabecalho-titulo h3 {
+        margin-bottom: 15px;
+    }
+    .titulo-titulo{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .img-titulo{
+        width: 100%;
+        text-align: center;
+    }
+    #painel-data {
+        text-align: left;
+    }
+    .botoes{
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+    .cabecalho {
+        height: 310px;
+    }
+}
+
+@media only screen and (max-width: 347px) {
+    .cabecalho {
+        height: 345px;
+    }
+}

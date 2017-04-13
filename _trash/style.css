@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(to bottom, rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
+}
+
+.img{
+    width: 150px;
+}
+
+div{
+    width: auto;
+    height: 80px;
+    background-color: darkgrey;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.titulo{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: darkgrey;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-family: Helvetica,Verdana;
+}
+
+.menu{
+    position: fixed;
+    top:80px;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: black;
+    color:white;
+    height: 30px;
+}
+
+.conteudo{
+    position: fixed;
+    top:115px;
+    left: 8%;
+    right: 8%;
+    width: 84%;
+    height: 100%;
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+.testbord{
+    margin-left: 200px;
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.php_return{
+    text-align: center;
+    text-shadow: darkgrey;
+    font-family: Verdana;
+}
+
+.camp{
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    background-color: #A9A9A9;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration: underline;
+}

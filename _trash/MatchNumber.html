@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="MatchNumber.css"/>
+    <script type="text/javascript" src="MatchNumber.js"></script>
+    <title>Acerte o número</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="left" id="left"></div>
+        <div class="right" id="right">
+            <input type="number" class="numero" id="numero" maxlength="2"/>
+        </div>
+    </div>
+    <div class="campo" id="campo">
+        <button class="botao" id="botao" onclick="match()"><strong>TESTAR!</strong></button>
+    </div>
+    <div class="campo">
+        <button class="botao" onclick="reset()"><strong>RESETAR</strong></button>
+    </div>
+    <div class="campo"><strong id="result"></strong></div>
+</body>
+</html>
