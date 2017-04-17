@@ -4,13 +4,22 @@ require 'config.php';
 if (isset($_SESSION['id']) && $_SESSION['id'] != -1){
     if ($_SESSION['retorno'] != null && $_SESSION['retorno'] != 0 ){
         if($_SESSION['retorno'] == 9){
-            echo "<div style='margin-bottom: 5px;margin-top: 5px' class=\"alert alert-danger fade in\">
+            echo "<div id='retornosessao' style='margin-bottom: 5px;margin-top: 5px' class=\"alert alert-danger fade in\">
                 <a href=\"#\" class=\"close\" data-dismiss=\"alert\" aria-label=\"close\">&times;</a>
                 Você precisa estar logado para fazer essa ação!
           </div>";
         }
     }
 }
+if ($_SESSION['retorno'] != null && $_SESSION['retorno'] != 0 ){
+    if($_SESSION['retorno'] == 99){
+        echo "<div id='retornosessao' style='margin-bottom: 5px;margin-top: 5px' class=\"alert alert-success fade in\">
+                E-mail enviado com sucesso!
+          </div>";
+        $_SESSION['retorno'] = null;
+    }
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -124,9 +133,17 @@ if (isset($_SESSION['id']) && $_SESSION['id'] != -1){
                 }
             ?>
             <button class="btn btn-info" style="margin-right: 5px;margin-bottom: 5px" onclick="location.href='cadastrar.php'">Cadastrar</button>
+            <button class="btn btn-info" style="margin-right: 5px;margin-bottom: 5px" onclick="location.href='enviar.php'" >Enviar E-mail</button>
         </div>
     </div>
     <script>
+        window.onload = function () {
+            setTimeout(function () {
+                if($("#retornosessao") != null){
+                    $("#retornosessao").slideUp();
+                }
+            },3000)
+        };
         $("#check").bind("click", function () {
             if ($("#per").val() == "1"){
                 $("#per").val("0");
