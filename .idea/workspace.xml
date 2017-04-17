@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="280204ad-40d1-4be8-a676-cfa1e516aeaa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jmprotetores/Orçamento - Estático.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vigia/enviar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vigia/enviar2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_trash/index.css" afterPath="$PROJECT_DIR$/_trash/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vigia/login.php" afterPath="$PROJECT_DIR$/vigia/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jmprotetores/Orçamento - Estático.md" afterPath="$PROJECT_DIR$/jmprotetores/Orçamento - Estático.md" />
     </list>
     <ignored path="php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,8 +109,8 @@
         <entry file="file://$PROJECT_DIR$/jmprotetores/Orçamento - Estático.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="574">
-                <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <first_editor relative-caret-position="306">
+                <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -382,12 +377,12 @@
       <workItem from="1492125251827" duration="124000" />
       <workItem from="1492126361261" duration="1016000" />
       <workItem from="1492450413206" duration="3226000" />
-      <workItem from="1492468511060" duration="1706000" />
+      <workItem from="1492468511060" duration="1870000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6811000" />
+    <option name="totallyTimeSpent" value="6975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -968,8 +963,8 @@
     <entry file="file://$PROJECT_DIR$/jmprotetores/Orçamento - Estático.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="574">
-            <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <first_editor relative-caret-position="306">
+            <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
             <folding />
           </first_editor>
           <second_editor />
