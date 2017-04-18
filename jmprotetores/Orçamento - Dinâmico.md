@@ -2,7 +2,7 @@
 
 <h2>Desenvolvedor: Samuel Costa</h2>
 <h2>Patrocinador: Jairo</h2>
-<h5>O site da JM Protetores será desenvolvido em php 5.6 e MySql 5.1 em funcionará como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa, os produtos a venda, e poderá fazer um orçamento online no qual chegará no e-mail do administrador, para que então possa concluir a venda. Usará recursos de visualização de imagens, carrinho de produtos e envio de e-mails. No desenvolvimento dinâmico o usuário adminsitrador poderá cadastrar novos produtos, editar ou excluir produtos por um portal de acesso.</h5>
+<h5>O site da JM Protetores será desenvolvido em php 5.6 e MySql 5.1 em funcionará como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa, os produtos a venda, e poderá fazer um orçamento online no qual chegará no e-mail do administrador, para que então possa concluir a venda. Usará recursos de visualização de imagens, carrinho de produtos e envio de e-mails. No desenvolvimento dinâmico o usuário administrador poderá cadastrar novos produtos, editar ou excluir produtos por um portal de acesso.</h5>
 
 
 <h3>Objetivo</h3>
