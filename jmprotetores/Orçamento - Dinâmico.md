@@ -1,12 +1,12 @@
 <h1>Orçamento Site Dinâmico - JM Protetores</h1>
 
 <h2>Desenvolvedor: Samuel Costa</h2>
-<h2>Patrocinador: Jairo</h2>
-<h5>O site da JM Protetores será desenvolvido em php 5.6 e MySql 5.1 funcionando como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa, os produtos à venda e poderá fazer um orçamento online que chegará no e-mail do administrador, para que então a venda possa ser concluída. Serão utilizados recursos de visualização de imagens, carrinho de produtos e envio de e-mails. No desenvolvimento dinâmico o usuário administrador poderá cadastrar novos produtos, editar ou excluir produtos por um portal de acesso.</h5>
+<h2>Contratante: Jairo</h2>
+<h5>O site da JM Protetores será desenvolvido em php 5.6 e MySql 5.1 funcionando como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa, os produtos à venda e poderá fazer um orçamento online que chegará no e-mail do administrador do site, para que então possa ser dado continuidade a venda por parte do contratante. Serão utilizados recursos de visualização de imagens, carrinho de produtos e envio de e-mails. No desenvolvimento dinâmico o usuário administrador poderá cadastrar novos produtos, editar ou excluir produtos por um portal de acesso.</h5>
 
 
 <h3>Objetivo</h3>
-<p>Ilustrar os recursos necessários para construção e publicação do WebSite por 1 ano. Valores para os anos seguintes serão apresentados no fim do orçamento.</p>
+<p>Ilustrar os recursos necessários para construção e publicação do WebSite. Alguns valores são cobrados anualmente, os que correspondem aos serviços de domínio.</p>
 
 <h3>Relação de Custo X Valor</h3>
 <table>
@@ -20,23 +20,23 @@
 </tr>
 <tr>
     <td>
-        Domínio (1 ano)
+        Criação do Domínio e registro por 1 ano*
     </td>
     <td>
-        27,90
-    </td>
-</tr>
-<tr>
-    <td>
-        Hospedagem
-    </td>
-    <td>
-        Grátis
+        40,00
     </td>
 </tr>
 <tr>
     <td>
-        Mão de Obra
+        Hospedagem do site
+    </td>
+    <td>
+        Gratuito**
+    </td>
+</tr>
+<tr>
+    <td>
+        Desenvolvimento (mão de obra)
     </td>
     <td>
         1.855,00
@@ -47,7 +47,7 @@
         <strong>Total</strong>
     </td>
     <td>
-        <strong>1.882,90</strong>
+        <strong>1.895,00</strong>
     </td>
 </tr>
 </table>
@@ -86,5 +86,11 @@
 </table>
 
 <h3>Observações</h3>
-<p>O valor de manutenção domínio é definido em R$ 59,90 a partir do segundo ano.
-<p>Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do patrocinador sem nenhum problema. Caso algum problema para o site seja apresentado pela hospedagem gratuita, será necessário a contratação de um serviço pago, que terá o valor de R$ 214,90 no primeiro ano e R$ 370,80 para os anos seguintes na empresa brasileira de hospedagem Locaweb.</p>
+<p>* O valor de renovação domínio é definido em R$ 40,00 por ano no [regisro.br](https://registro.br/), os valores para contratação de mais anos são de:
+2 Anos - R$ 76,00
+3 Anos - R$ 112,00
+4 Anos - R$ 148,00
+5 Anos - R$ 184,00
+6 Anos - R$ 220,00
+Esse serviço é pago diretamente para o fornecedor, o desenvolvedor emitirá o boleto e cadastrará o domínio para a criação do site.</p>
+<p>** Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do patrocinador sem nenhum problema. Caso algum problema para o site seja apresentado pela hospedagem gratuita, será necessário a contratação de um serviço pago, que terá o valor de R$ 214,90 no primeiro ano e R$ 370,80 para os anos seguintes na empresa brasileira de hospedagem Locaweb.</p>
