@@ -23,7 +23,7 @@
         Criação do Domínio e registro por 1 ano*
     </td>
     <td>
-        40,00
+        R$ 40,00
     </td>
 </tr>
 <tr>
@@ -39,7 +39,7 @@
         Desenvolvimento (mão de obra)
     </td>
     <td>
-        1.855,00
+        R$ 1.855,00
     </td>
 </tr>
 <tr>
@@ -47,7 +47,7 @@
         <strong>Total</strong>
     </td>
     <td>
-        <strong>1.895,00</strong>
+        <strong>R$ 1.895,00</strong>
     </td>
 </tr>
 </table>
