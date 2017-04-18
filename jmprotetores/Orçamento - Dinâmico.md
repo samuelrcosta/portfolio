@@ -20,26 +20,26 @@
 </tr>
 <tr>
     <td>
-        Criação do Domínio e registro por 1 ano*
+        <p>Criação do Domínio e registro por 1 ano*</p>
     </td>
     <td>
-        40,00
-    </td>
-</tr>
-<tr>
-    <td>
-        Hospedagem do site
-    </td>
-    <td>
-        Gratuito**
+        <p>40,00</p>
     </td>
 </tr>
 <tr>
     <td>
-        Desenvolvimento (mão de obra)
+        <p>Hospedagem do site</p>
     </td>
     <td>
-        1.855,00
+        <p>Gratuito**</p>
+    </td>
+</tr>
+<tr>
+    <td>
+        <p>Desenvolvimento (mão de obra)</p>
+    </td>
+    <td>
+        <p>1.855,00</p>
     </td>
 </tr>
 <tr>
@@ -52,7 +52,7 @@
 </tr>
 </table>
 
-<h3>Decomposição da Mão de Obra</h3>
+<h3>Decomposição da Mão de Obra de desenvolvimento</h3>
 <p>O valor da mão de obra do site é calculado de acordo com o tempo gasto para a sua construção em relação ao valor da hora de trabalho do desenvolvedor.</p>
 <p>O site utilizará recursos html5, css3, javascript, php e banco de dados MySql e também contará com o apoio do framework css Bootstrap3.</p>
 <p>Na construção do site o desenvolvedor gastará um total de <strong>175 horas</strong>, que serão distribuidas em 3 meses de trabalho. O valor da hora de trabalho é definida em <strong>R$ 10,60</strong>. Cálculo totalizado abaixo:</p>
@@ -86,11 +86,11 @@
 </table>
 
 <h3>Observações</h3>
-<p>* O valor de renovação domínio é definido em R$ 40,00 por ano no [regisro.br](https://registro.br/), os valores para contratação de mais anos são de:
-2 Anos - R$ 76,00
-3 Anos - R$ 112,00
-4 Anos - R$ 148,00
-5 Anos - R$ 184,00
-6 Anos - R$ 220,00
+<p>* O valor de renovação domínio é definido em R$ 40,00 por ano no Regisro.br(https://registro.br/), os valores para contratação de mais anos são de:<br />
+2 Anos - R$ 76,00<br />
+3 Anos - R$ 112,00<br />
+4 Anos - R$ 148,00<br />
+5 Anos - R$ 184,00<br />
+6 Anos - R$ 220,00<br />
 Esse serviço é pago diretamente para o fornecedor, o desenvolvedor emitirá o boleto e cadastrará o domínio para a criação do site.</p>
-<p>** Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do patrocinador sem nenhum problema. Caso algum problema para o site seja apresentado pela hospedagem gratuita, será necessário a contratação de um serviço pago, que terá o valor de R$ 214,90 no primeiro ano e R$ 370,80 para os anos seguintes na empresa brasileira de hospedagem Locaweb.</p>
+<p>** Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do patrocinador sem nenhum problema. Caso algum problema para o site seja apresentado pela hospedagem gratuita, será necessário a contratação de um serviço pago, os valores praticados pela empresa de hospedagem brasileira Locaweb hoje é de R$ 370,80 anuais.</p>
