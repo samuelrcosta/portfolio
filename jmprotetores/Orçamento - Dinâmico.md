@@ -20,26 +20,26 @@
 </tr>
 <tr>
     <td>
-        <p>Criação do Domínio e registro por 1 ano*</p>
+        Criação do Domínio e registro por 1 ano*
     </td>
     <td>
-        <p>40,00</p>
-    </td>
-</tr>
-<tr>
-    <td>
-        <p>Hospedagem do site</p>
-    </td>
-    <td>
-        <p>Gratuito**</p>
+        40,00
     </td>
 </tr>
 <tr>
     <td>
-        <p>Desenvolvimento (mão de obra)</p>
+        Hospedagem do site
     </td>
     <td>
-        <p>1.855,00</p>
+        Gratuito**
+    </td>
+</tr>
+<tr>
+    <td>
+        Desenvolvimento (mão de obra)
+    </td>
+    <td>
+        1.855,00
     </td>
 </tr>
 <tr>
