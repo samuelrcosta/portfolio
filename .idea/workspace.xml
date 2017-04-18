@@ -109,8 +109,8 @@
         <entry file="file://$PROJECT_DIR$/jmprotetores/Orçamento - Estático.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="254">
-                <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+              <first_editor relative-caret-position="288">
+                <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -377,12 +377,12 @@
       <workItem from="1492125251827" duration="124000" />
       <workItem from="1492126361261" duration="1016000" />
       <workItem from="1492450413206" duration="3226000" />
-      <workItem from="1492468511060" duration="5211000" />
+      <workItem from="1492468511060" duration="5827000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10316000" />
+    <option name="totallyTimeSpent" value="10932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -963,8 +963,8 @@
     <entry file="file://$PROJECT_DIR$/jmprotetores/Orçamento - Estático.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="254">
-            <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+          <first_editor relative-caret-position="288">
+            <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />

@@ -57,8 +57,8 @@
 <p>O site utilizará recursos html5, css3, javascript, php e banco de dados MySql, também contará com o apoio do framework css Bootstrap3.
 <p>Na construção do site o desenvolvedor gastará 144 horas totais, que serão distribuidas em 3 meses de trabalho, o valor da hora de trabalho é definida em R$ 11,00. Cálculo totalizado abaixo:</p>
 <ul>
-    144 x R$ 11,00<br />
-    TOTAL =   R$ 1584,00
+    <li>144 x R$ 11,00</li>
+    <li>TOTAL =   R$ 1584,00</li>
 </ul>
 
 <h3>Observações</h3>
