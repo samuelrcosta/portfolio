@@ -83,7 +83,7 @@
 </table>
 
 <h3>Observações</h3>
-<p>* O valor de renovação domínio é definido em R$ 40,00 por ano no Regisro.br(https://registro.br/), os valores para contratação de mais anos são de:<br />
+<p>* O valor de renovação domínio é definido em R$ 40,00 por ano no Registro.br(https://registro.br/), os valores para contratação de mais anos são de:<br />
 2 Anos - R$ 76,00<br />
 3 Anos - R$ 112,00<br />
 4 Anos - R$ 148,00<br />
