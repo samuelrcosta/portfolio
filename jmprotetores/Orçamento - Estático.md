@@ -1,12 +1,19 @@
-<h1>Orçamento Site Estático - JM Protetores</h1>
+<h1>Proposta Site Estático - JM Protetores</h1>
 
-<h2>Desenvolvedor: Samuel Costa</h2>
+<h2>Desenvolvedor</h2>
+<h5>Nome: Samuel Costa<br />
+Graduação: Bacharelado em Engenharia de Software - UFG<br />
+E-mail: samuel.rcosta@hotmail.com.br<br />
+Telefone: (62) 985367212
+</h5>
 <h2>Contratante: Jairo</h2>
 <h5>O site da JM Protetores será desenvolvido em php 5.6 e MySql 5.1 funcionando como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa, os produtos à venda e poderá fazer um orçamento online que chegará no e-mail do administrador do site, para que então possa ser dado continuidade a venda por parte do contratante. Serão utilizados recursos de visualização de imagens, carrinho de produtos e envio de e-mails.</h5>
 
-
+<h3>Compromisso</h3>
+<p>Ampliar a acessibilidade e a visibilidade da sua empresa.</p>
 <h3>Objetivo</h3>
-<p>Ilustrar os recursos necessários para construção e publicação do WebSite. Alguns valores são cobrados anualmente, os que correspondem aos serviços de domínio.</p>
+<p>Trazer visibilidade aos produtos oferecidos pela empresa, de forma que os motores de busca (Ex.: Google) mostre sua empresa e produtos quando pesquisado, dessa maneira a empresa poderá conquistar novos clientes através dessa nova plataforma.<br />
+O orçamento tem o objetivo de ilustrar os recursos necessários para construção e publicação do WebSite. Alguns valores são cobrados anualmente, os que correspondem aos serviços de domínio.</p>
 
 <h3>Relação de Custo X Valor</h3>
 <table>
@@ -91,4 +98,3 @@
 6 Anos - R$ 220,00<br />
 Esse serviço é pago diretamente para o fornecedor, o desenvolvedor emitirá o boleto e cadastrará o domínio para a criação do site.</p>
 <p>** Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do contratante sem nenhum problema. Caso algum problema para o site seja apresentado pela hospedagem gratuita, será necessário a contratação de um serviço pago, os valores praticados pela empresa de hospedagem brasileira Locaweb hoje é de R$ 370,80 anuais.</p>
-
