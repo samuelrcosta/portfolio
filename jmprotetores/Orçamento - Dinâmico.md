@@ -1,8 +1,8 @@
-<h1>Orçamento Site Estático - JM Protetores</h1>
+<h1>Orçamento Site Dinâmico - JM Protetores</h1>
 
 <h2>Desenvolvedor: Samuel Costa</h2>
 <h2>Patrocinador: Jairo</h2>
-<h5>O site da JM Protetores será desenvolvido em php 5.6 e MySql 5.1 em funcionará como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa, os produtos a venda, e poderá fazer um orçamento online no qual chegará no e-mail do administrador, para que então possa concluir a venda. Usará recursos de visualização de imagens, carrinho de produtos e envio de e-mails.</h5>
+<h5>O site da JM Protetores será desenvolvido em php 5.6 e MySql 5.1 em funcionará como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa, os produtos a venda, e poderá fazer um orçamento online no qual chegará no e-mail do administrador, para que então possa concluir a venda. Usará recursos de visualização de imagens, carrinho de produtos e envio de e-mails. No desenvolvimento dinâmico o usuário adminsitrador poderá cadastrar novos produtos, editar ou excluir produtos por um portal de acesso.</h5>
 
 
 <h3>Objetivo</h3>
@@ -39,7 +39,7 @@
         Mão de Obra
     </td>
     <td>
-        1.431,00
+        1.855,00
     </td>
 </tr>
 <tr>
@@ -47,7 +47,7 @@
         <strong>Total</strong>
     </td>
     <td>
-        <strong>1.458,90</strong>
+        <strong>1.882,90</strong>
     </td>
 </tr>
 </table>
@@ -55,7 +55,7 @@
 <h3>Decomposição da Mão de Obra</h3>
 <p>O valor da mão de obra do site é calculada de acordo com o tempo gasto a ser construído o site e ao valor da hora de trabalho do desenvolvedor.</p>
 <p>O site utilizará recursos html5, css3, javascript, php e banco de dados MySql, também contará com o apoio do framework css Bootstrap3.
-<p>Na construção do site o desenvolvedor gastará um total de <strong>135 horas totais</strong>, que serão distribuidas em 3 meses de trabalho, o valor da hora de trabalho é definida em <strong>R$ 10,60</strong>. Cálculo totalizado abaixo:</p>
+<p>Na construção do site o desenvolvedor gastará um total de <strong>175 horas totais</strong>, que serão distribuidas em 3 meses de trabalho, o valor da hora de trabalho é definida em <strong>R$ 10,60</strong>. Cálculo totalizado abaixo:</p>
 <table>
     <tr>
         <th>Descrição</th>
@@ -63,7 +63,7 @@
         <th>Valor Total</th>
     </tr>
     <tr>
-        <td>Criação da estrutura do site</td><td>30</td><td>R$ 318,00</td>
+        <td>Criação da estrutura do site</td><td>35</td><td>R$ 371,00</td>
     </tr>
     <tr>
         <td>Estruturação do banco de dados</td><td>2</td><td>R$ 21,20</td>
@@ -75,10 +75,13 @@
         <td>Desenvolvimento das funcionalidades</td><td>50</td><td>R$ 530,00</td>
     </tr>
     <tr>
+        <td>Criação do portal do usuário</td><td>35</td><td>R$ 371,00</td>
+    </tr>
+    <tr>
         <td>Implementação do site (colocar online)</td><td>3</td><td>R$ 31,80</td>
     </tr>
     <tr>
-        <td><strong>TOTAL</strong></td><td><strong>135</strong></td><td><strong>R$ 1.431,00</strong></td>
+        <td><strong>TOTAL</strong></td><td><strong>135</strong></td><td><strong>R$ 1.855,00</strong></td>
     </tr>
 </table>
 
