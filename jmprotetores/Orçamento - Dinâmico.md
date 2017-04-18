@@ -20,7 +20,7 @@
 </tr>
 <tr>
     <td>
-        Criação do Domínio e registro por 1 ano*
+        Criação do Domínio e registro por 1 ano*
     </td>
     <td>
         40,00
@@ -36,7 +36,7 @@
 </tr>
 <tr>
     <td>
-        Desenvolvimento (mão de obra)
+        Desenvolvimento (mão de obra)
     </td>
     <td>
         1.855,00
