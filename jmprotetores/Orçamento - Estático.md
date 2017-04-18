@@ -39,7 +39,7 @@
         Mão de Obra
     </td>
     <td>
-        1.526,40
+        1.378,00
     </td>
 </tr>
 <tr>
@@ -55,7 +55,7 @@
 <h3>Decomposição da Mão de Obra</h3>
 <p>O valor da mão de obra do site é calculada de acordo com o tempo gasto a ser construído o site e ao valor da hora de trabalho do desenvolvedor.</p>
 <p>O site utilizará recursos html5, css3, javascript, php e banco de dados MySql, também contará com o apoio do framework css Bootstrap3.
-<p>Na construção do site o desenvolvedor gastará um total de 144 horas totais, que serão distribuidas em 3 meses de trabalho, o valor da hora de trabalho é definida em R$ 10,60. Cálculo totalizado abaixo:</p>
+<p>Na construção do site o desenvolvedor gastará um total de 130 horas totais, que serão distribuidas em 3 meses de trabalho, o valor da hora de trabalho é definida em R$ 10,60. Cálculo totalizado abaixo:</p>
 <table>
     <tr>
         <th>Descrição</th>
@@ -66,19 +66,19 @@
         <td>Criação da estrutura do site</td><td>30</td><td>R$ 318,00</td>
     </tr>
     <tr>
-        <td>Estruturação do banco de dados</td><td>3</td><td>R$ 31,80</td>
+        <td>Estruturação do banco de dados</td><td>2</td><td>R$ 21,20</td>
     </tr>
     <tr>
         <td>Desenvolvimento do visual</td><td>50</td><td>R$ 530,00</td>
     </tr>
     <tr>
-        <td>Desenvolvimento das funcionalidades</td><td>57</td><td>R$ 604,20</td>
+        <td>Desenvolvimento das funcionalidades</td><td>45</td><td>R$ 477,00</td>
     </tr>
     <tr>
-        <td>Implementação do site (colocar online)</td><td>4</td><td>R$ 42,40</td>
+        <td>Implementação do site (colocar online)</td><td>3</td><td>R$ 31,80</td>
     </tr>
     <tr>
-        <td><strong>TOTAL</strong></td><td><strong>144</strong></td><td><strong>R$ 1.526,40</strong></td>
+        <td><strong>TOTAL</strong></td><td><strong>144</strong></td><td><strong>R$ 1.378,00</strong></td>
     </tr>
 </table>
 
