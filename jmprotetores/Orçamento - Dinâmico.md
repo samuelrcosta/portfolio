@@ -81,7 +81,7 @@
         <td>Implementação do site (colocar online)</td><td>3</td><td>R$ 31,80</td>
     </tr>
     <tr>
-        <td><strong>TOTAL</strong></td><td><strong>135</strong></td><td><strong>R$ 1.855,00</strong></td>
+        <td><strong>TOTAL</strong></td><td><strong>175</strong></td><td><strong>R$ 1.855,00</strong></td>
     </tr>
 </table>
 
