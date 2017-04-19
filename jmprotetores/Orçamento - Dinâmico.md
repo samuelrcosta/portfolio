@@ -1,4 +1,4 @@
-<h1>Orçamento Site Dinâmico - JM Protetores</h1>
+<h1 align="center">Orçamento Site Dinâmico - JM Protetores</h1>
 <h2>Desenvolvedor</h2>
 <h5>Nome: Samuel Costa<br />
 Graduação: Bacharelado em Engenharia de Software - UFG<br />
@@ -6,40 +6,40 @@ E-mail: samuel.rcosta@hotmail.com.br<br />
 Telefone: (62) 985367212
 </h5>
 <h2>Contratante: Jairo</h2>
-<h5>O site da JM Protetores será desenvolvido em php 5.6, funcionando como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa e os produtos à venda. Logo, poderá ser feito um orçamento online que chegará no e-mail do administrador do site, para que assim possa ser dado continuidade à venda por parte do contratante. No desenvolvimento dinâmico o usuário administrador poderá cadastrar novos produtos, editar ou excluir produtos por meio de um portal de acesso.</h5>
+<h5 align="justify">O site da JM Protetores será desenvolvido em php 5.6, funcionando como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa e os produtos à venda. Logo, poderá ser feito um orçamento online que chegará no e-mail do administrador do site, para que assim possa ser dado continuidade à venda por parte do contratante. No desenvolvimento dinâmico o usuário administrador poderá cadastrar novos produtos, editar ou excluir produtos por meio de um portal de acesso.</h5>
 
 <h3>Compromisso</h3>
-<p>Construir um site que ampliará a visibilidade e a acessibilidade da empresa juntamente com seus produtos. Elaborar uma plataforma virtual de vendas que seja objetiva e simples de ser utilizada, a qual trará conforto, eficácia e facilidade ao comprador online, que poderá de maneira ágil fazer seu orçamento por meio de uma interface autoexplicativa do site, a qual favorecerá a compra dos produtos da empresa.</p>
+<p align="justify">Construir um site que ampliará a visibilidade e a acessibilidade da empresa juntamente com seus produtos. Elaborar uma plataforma virtual de vendas que seja objetiva e simples de ser utilizada, a qual trará conforto, eficácia e facilidade ao comprador online, que poderá de maneira ágil fazer seu orçamento por meio de uma interface autoexplicativa do site, a qual favorecerá a compra dos produtos da empresa.</p>
 <h3>Objetivo</h3>
-<p>Trazer visibilidade aos produtos oferecidos, de forma que os motores de busca (Ex.: Google) encontrem sua empresa e seus produtos quando pesquisado. Dessa maneira, a empresa poderá conquistar novos clientes através desta nova plataforma de divulgação e vendas.<br />O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas e os recursos necessários para construção e publicação do WebSite. Alguns valores serão cobrados anualmente, como os que correspondem aos serviços de domínio.</p>
+<p align="justify">Trazer visibilidade aos produtos oferecidos, de forma que os motores de busca (Ex.: Google) encontrem sua empresa e seus produtos quando pesquisado. Dessa maneira, a empresa poderá conquistar novos clientes através desta nova plataforma de divulgação e vendas.<br />O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas e os recursos necessários para construção e publicação do WebSite. Alguns valores serão cobrados anualmente, como os que correspondem aos serviços de domínio.</p>
 
 <h3>Descrição da proposta</h3>
 <ul>
     <li>
         <strong>Institucional - Empresa</strong>
-        <p>Uma pequena sessão do site com a finalidade de mostrar as informações da empresa, o ramo de atuação, dados para contato e quaisquer outras informações relativas à JM Protetores.</p>
+        <p align="justify">Uma pequena sessão do site com a finalidade de mostrar as informações da empresa, o ramo de atuação, dados para contato e quaisquer outras informações relativas à JM Protetores.</p>
     </li>
     <li>
         <strong>Produtos</strong>
-        <p>O site irá mostrar uma listagem completa de todos os produtos disponíveis para compra. Para cada produto será registrado um grupo de imagens, em que será definido uma principal e as outras que aparecerão após o clique sobre a imagem do produto. Dessa forma, o cliente poderá ver o produto em várias perspectivas diferentes.</p>
+        <p align="justify">O site irá mostrar uma listagem completa de todos os produtos disponíveis para compra. Para cada produto será registrado um grupo de imagens, em que será definido uma principal e as outras que aparecerão após o clique sobre a imagem do produto. Dessa forma, o cliente poderá ver o produto em várias perspectivas diferentes.</p>
     </li>
     <li>
         <strong>Orçamento e Carrinho de compras</strong>
-        <p>Para facilitar a navegação e compra do cliente, o site oferecerá a possibilidade do cliente adicionar os produtos desejados ao seu carrinho, dessa forma ele irá visualizar em tempo real o valor atual do seu orçamento juntamente com os produtos que foram selecionados.</p>
+        <p align="justify">Para facilitar a navegação e compra do cliente, o site oferecerá a possibilidade do cliente adicionar os produtos desejados ao seu carrinho, dessa forma ele irá visualizar em tempo real o valor atual do seu orçamento juntamente com os produtos que foram selecionados.</p>
     </li>
     <li>
         <strong>Envio automático de E-mail</strong>
-        <p>Os orçamentos feitos pelo website chegarão no e-mail do administrador do site, o qual estará detalhado todos os dados do cliente (nome, telefone, email, endereço, etc***) e também mostrará todos os produtos que foram selecionados no site, para que então o responsável tome as medidas necessárias para fechar a venda com o cliente.</p>
+        <p align="justify">Os orçamentos feitos pelo website chegarão no e-mail do administrador do site, o qual estará detalhado todos os dados do cliente (nome, telefone, email, endereço, etc***) e também mostrará todos os produtos que foram selecionados no site, para que então o responsável tome as medidas necessárias para fechar a venda com o cliente.</p>
     </li>
     <li>
         <strong>Fale Conosco</strong>
-        <p>Este será um menu no site, em que será mostrado os dados para contato da empresa e também oferecerá a possibilidade do cliente enviar uma mensagem de contato, na qual ele precisará apenas colocar alguns dados pessoais (nome, telefone, email, etc***) e digitar a mensagem desejada. No e-mail do administrador do site, chegará a mensagem completa para que ele possa atender a um possível interessado dos produtos disponíveis para venda.</p>
-        <p>Essa parte do site será interessante em ajudar quem possui alguma dúvida e queira soluciona-la enviando uma mensagem para a empresa.</p>
+        <p align="justify">Este será um menu no site, em que será mostrado os dados para contato da empresa e também oferecerá a possibilidade do cliente enviar uma mensagem de contato, na qual ele precisará apenas colocar alguns dados pessoais (nome, telefone, email, etc***) e digitar a mensagem desejada. No e-mail do administrador do site, chegará a mensagem completa para que ele possa atender a um possível interessado dos produtos disponíveis para venda.</p>
+        <p align="justify">Essa parte do site será interessante em ajudar quem possui alguma dúvida e queira soluciona-la enviando uma mensagem para a empresa.</p>
     </li>
     <li>
         <strong>Portal de acesso</strong>
-        <p>Os produtos do site poderão ser administrados pelo próprio contratante através de um portal de acesso, no qual irá mostrar todos os produtos cadastrados. Será possível editar um produto (alterar nome, preço, fotos, quantidade mínima) excluir algum produto que eventualmente possa sair de linha ou cadastrar um novo produto.</p>
-        <p>O portal de acesso será útil para as manutenções periódicas dos produtos do site caso tenha alterações nos preços (promoções, reajustes) ou novas produções na empresa, esse é um recurso que possibilitará manter o site sempre atualizado de maneira rápida e simples. Essas alterações poderão ser feitas no momento desejado e quantas vezes forem necessárias sem nenhum custo por modificação ou novos produtos cadastrados.</p>
+        <p align="justify">Os produtos do site poderão ser administrados pelo próprio contratante através de um portal de acesso, no qual irá mostrar todos os produtos cadastrados. Será possível editar um produto (alterar nome, preço, fotos, quantidade mínima) excluir algum produto que eventualmente possa sair de linha ou cadastrar um novo produto.</p>
+        <p align="justify">O portal de acesso será útil para as manutenções periódicas dos produtos do site caso tenha alterações nos preços (promoções, reajustes) ou novas produções na empresa, esse é um recurso que possibilitará manter o site sempre atualizado de maneira rápida e simples. Essas alterações poderão ser feitas no momento desejado e quantas vezes forem necessárias sem nenhum custo por modificação ou novos produtos cadastrados.</p>
     </li>
 </ul>
 
@@ -88,8 +88,8 @@ Telefone: (62) 985367212
 </table>
 
 <h3>Decomposição da Mão de Obra de desenvolvimento</h3>
-<p>O valor da mão de obra do site é calculado de acordo com o tempo gasto para a sua construção em relação ao valor da hora de trabalho do desenvolvedor.</p>
-<p>Na construção do site o desenvolvedor gastará um total de <strong>175 horas</strong>, que serão distribuidas em 3 meses de trabalho. O valor da hora de trabalho é definida em <strong>R$ 10,60</strong>. Cálculo totalizado abaixo:</p>
+<p align="justify">O valor da mão de obra do site é calculado de acordo com o tempo gasto para a sua construção em relação ao valor da hora de trabalho do desenvolvedor.</p>
+<p align="justify">Na construção do site o desenvolvedor gastará um total de <strong>175 horas</strong>, que serão distribuidas em 3 meses de trabalho. O valor da hora de trabalho é definida em <strong>R$ 10,60</strong>. Cálculo totalizado abaixo:</p>
 <table>
     <tr>
         <th>Descrição</th>
@@ -120,7 +120,7 @@ Telefone: (62) 985367212
 </table>
 
 <h3>Observações</h3>
-<p>* O valor de renovação domínio é definido pelo valor de R$ 40,00 por ano. Esse serviço é pago diretamente para o fornecedor, o desenvolvedor emitirá o boleto e cadastrará o domínio para a criação do site.</p>
-<p>** Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do contratante sem nenhum problema. Caso ocorra algum problema para o site devido o serviço gratuito de hospedagem, será necessária a contratação de um serviço pago, os valores praticados pela empresa de hospedagem brasileira Locaweb hoje é de R$ 370,80 anuais.</p>
-<p>*** Os dados que serão captados do cliente no momento de envio de um orçamento ou de uma mensagem serão acertados posteriormente com o contrante, pois ele decidirá os dados que deseja obter do cliente.</p>
-<p>Quaisquer alterações necessárias após a entrega do site finalizado ao contratante, que não estejam ligadas a eventuais erros no site serão atreladas a um valor cobrado posteriormente acertado à parte desse orçamento.</p>
+<p align="justify">* O valor de renovação domínio é definido pelo valor de R$ 40,00 por ano. Esse serviço é pago diretamente para o fornecedor, o desenvolvedor emitirá o boleto e cadastrará o domínio para a criação do site.</p>
+<p align="justify">** Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do contratante sem nenhum problema. Caso ocorra algum problema para o site devido o serviço gratuito de hospedagem, será necessária a contratação de um serviço pago, os valores praticados pela empresa de hospedagem brasileira Locaweb hoje é de R$ 370,80 anuais.</p>
+<p align="justify">*** Os dados que serão captados do cliente no momento de envio de um orçamento ou de uma mensagem serão acertados posteriormente com o contrante, pois ele decidirá os dados que deseja obter do cliente.</p>
+<p align="justify">Quaisquer alterações necessárias após a entrega do site finalizado ao contratante, que não estejam ligadas a eventuais erros no site serão atreladas a um valor cobrado posteriormente acertado à parte desse orçamento.</p>
