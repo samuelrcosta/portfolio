@@ -11,7 +11,7 @@ Telefone: (62) 985367212
 <h3>Compromisso</h3>
 <p>Construir um site que ampliará a visibilidade e a acessibilidade da empresa juntamente com seus produtos. Elaborar uma plataforma virtual de vendas que seja objetiva e simples de ser utilizada, a qual trará conforto, eficácia e facilidade ao comprador online, que poderá de maneira ágil fazer seu orçamento por meio de uma interface autoexplicativa do site, a qual favorecerá a compra dos produtos da empresa.</p>
 <h3>Objetivo</h3>
-<p>Trazer visibilidade aos produtos oferecidos, de forma que os motores de busca (Ex.: Google) mostrem sua empresa e seus produtos quando pesquisado. Dessa maneira, a empresa poderá conquistar novos clientes através desta nova plataforma de divulgação e vendas.<br />O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas e os recursos necessários para construção e publicação do WebSite. Alguns valores serão cobrados anualmente, como os que correspondem aos serviços de domínio.</p>
+<p>Trazer visibilidade aos produtos oferecidos, de forma que os motores de busca (Ex.: Google) encontrem sua empresa e seus produtos quando pesquisado. Dessa maneira, a empresa poderá conquistar novos clientes através desta nova plataforma de divulgação e vendas.<br />O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas e os recursos necessários para construção e publicação do WebSite. Alguns valores serão cobrados anualmente, como os que correspondem aos serviços de domínio.</p>
 
 <h3>Descrição da proposta</h3>
 <ul>
