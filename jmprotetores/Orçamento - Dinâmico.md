@@ -9,7 +9,7 @@ Telefone: (62) 985367212
 <h5>O site da JM Protetores será desenvolvido em php 5.6, funcionando como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa e os produtos à venda. Logo, poderá ser feito um orçamento online que chegará no e-mail do administrador do site, para que assim possa ser dado continuidade à venda por parte do contratante. No desenvolvimento dinâmico o usuário administrador poderá cadastrar novos produtos, editar ou excluir produtos por meio de um portal de acesso.</h5>
 
 <h3>Compromisso</h3>
-<p>Construir um site que ampliará a visibilidade e a acessibilidade da empresa juntamente com seus produtos.</p>
+<p>Construir um site que ampliará a visibilidade e a acessibilidade da empresa juntamente com seus produtos. Elaborar uma plataforma virtual de vendas que seja objetiva e simples de ser utilizada, a qual trará conforto, eficácia e facilidade ao comprador online, que poderá de maneira ágil fazer seu orçamento por meio de uma interface autoexplicativa do site, a qual favorecerá a compra dos produtos da empresa.</p>
 <h3>Objetivo</h3>
 <p>Trazer visibilidade aos produtos oferecidos, de forma que os motores de busca (Ex.: Google) mostrem sua empresa e seus produtos quando pesquisado. Dessa maneira, a empresa poderá conquistar novos clientes através desta nova plataforma de divulgação e vendas.<br />O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas e os recursos necessários para construção e publicação do WebSite. Alguns valores serão cobrados anualmente, como os que correspondem aos serviços de domínio.</p>
 
@@ -120,7 +120,7 @@ Telefone: (62) 985367212
 </table>
 
 <h3>Observações</h3>
-<p>* O valor de renovação domínio é definido em R$ 40,00 por ano. Esse serviço é pago diretamente para o fornecedor, o desenvolvedor emitirá o boleto e cadastrará o domínio para a criação do site.</p>
-<p>** Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do contratante sem nenhum problema. Caso ocorra algum problema para o site devido o serviço gratuito de hospedagem, será necessário a contratação de um serviço pago, os valores praticados pela empresa de hospedagem brasileira Locaweb hoje é de R$ 370,80 anuais.</p>
-<p>*** Os dados que serão captados do cliente no momento de envio de um orçamento ou de uma mensagem serão acertados posteriormente com o contrante, ele decidirá os dados que deseja obter do cliente.</p>
-<p>Qualquer alteração necessária após a entrega do site e a aprovação do contrante, na qual não esteja ligada a erros será cobrado um valor acertado a parte desse orçamento.</p>
+<p>* O valor de renovação domínio é definido pelo valor de R$ 40,00 por ano. Esse serviço é pago diretamente para o fornecedor, o desenvolvedor emitirá o boleto e cadastrará o domínio para a criação do site.</p>
+<p>** Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do contratante sem nenhum problema. Caso ocorra algum problema para o site devido o serviço gratuito de hospedagem, será necessária a contratação de um serviço pago, os valores praticados pela empresa de hospedagem brasileira Locaweb hoje é de R$ 370,80 anualmente.</p>
+<p>*** Os dados que serão captados do cliente no momento de envio de um orçamento ou de uma mensagem serão acertados posteriormente com o contrante, pois ele decidirá os dados que deseja obter do cliente.</p>
+<p>Quaisquer alterações necessárias após a entrega do site finalizado ao contratante, que não estejam ligadas a eventuais erros no site serão atreladas a um valor cobrado posteriormente acertado à parte desse orçamento.</p>
