@@ -6,41 +6,40 @@ E-mail: samuel.rcosta@hotmail.com.br<br />
 Telefone: (62) 985367212
 </h5>
 <h2>Contratante: Jairo</h2>
-<h5>O site da JM Protetores será desenvolvido em php 5.6, funcionando como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa e os produtos à venda, então poderá fazer um orçamento online que chegará no e-mail do administrador do site, para que assim possa ser dado continuidade a venda por parte do contratante. No desenvolvimento dinâmico o usuário administrador poderá cadastrar novos produtos, editar ou excluir produtos por um portal de acesso.</h5>
+<h5>O site da JM Protetores será desenvolvido em php 5.6, funcionando como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa e os produtos à venda. Logo, poderá ser feito um orçamento online que chegará no e-mail do administrador do site, para que assim possa ser dado continuidade à venda por parte do contratante. No desenvolvimento dinâmico o usuário administrador poderá cadastrar novos produtos, editar ou excluir produtos por meio de um portal de acesso.</h5>
 
 <h3>Compromisso</h3>
-<p>Construir um site que amplie a acessibilidade e a visibilidade da empresa e de seus produtos.</p>
+<p>Construir um site que ampliará a visibilidade e a acessibilidade da empresa juntamente com seus produtos.</p>
 <h3>Objetivo</h3>
-<p>Trazer visibilidade aos produtos oferecidos pela empresa, de forma que os motores de busca (Ex.: Google) mostre sua empresa e produtos quando pesquisado, dessa maneira a empresa poderá conquistar novos clientes através dessa nova plataforma de divulgação e vendas.<br />
-O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas e os recursos necessários para construção e publicação do WebSite. Alguns valores são cobrados anualmente, os que correspondem aos serviços de domínio.</p>
+<p>Trazer visibilidade aos produtos oferecidos, de forma que os motores de busca (Ex.: Google) mostrem sua empresa e seus produtos quando pesquisado. Dessa maneira, a empresa poderá conquistar novos clientes através desta nova plataforma de divulgação e vendas.<br />O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas e os recursos necessários para construção e publicação do WebSite. Alguns valores serão cobrados anualmente, como os que correspondem aos serviços de domínio.</p>
 
 <h3>Descrição da proposta</h3>
 <ul>
     <li>
         <strong>Institucional - Empresa</strong>
-        <p>Uma pequena sessão do site com a finalidade de mostrar as informações da empresa, o ramo de atuação, dados para contato e qualquer outra informação relativa a JM Protetores.</p>
+        <p>Uma pequena sessão do site com a finalidade de mostrar as informações da empresa, o ramo de atuação, dados para contato e quaisquer outras informações relativas à JM Protetores.</p>
     </li>
     <li>
         <strong>Produtos</strong>
-        <p>O site irá mostrar uma listagem completa de todos os produtos disponíveis para compra. Em cada produto ficará registrado um grupo de imagens, no qual será definido uma principal e outras que aparecerão quando clicado sobre a imagem do produto, assim o cliente poderá ver o produto em várias perspectivas diferentes.</p>
+        <p>O site irá mostrar uma listagem completa de todos os produtos disponíveis para compra. Para cada produto será registrado um grupo de imagens, em que será definido uma principal e as outras que aparecerão após o clique sobre a imagem do produto. Dessa forma, o cliente poderá ver o produto em várias perspectivas diferentes.</p>
     </li>
     <li>
         <strong>Orçamento e Carrinho de compras</strong>
-        <p>Para facilitar a navegação e compra do cliente, o site oferecerá a possibilidade do cliente adicionar os produtos desejados ao carrinho, dessa forma ele irá visualizar em tempo real o valor atual do seu orçamento e os produtos que foram selecionados.</p>
+        <p>Para facilitar a navegação e compra do cliente, o site oferecerá a possibilidade do cliente adicionar os produtos desejados ao seu carrinho, dessa forma ele irá visualizar em tempo real o valor atual do seu orçamento juntamente com os produtos que foram selecionados.</p>
     </li>
     <li>
         <strong>Envio automático de E-mail</strong>
-        <p>Os orçamentos feitos pelo website chegarão no e-mail do administrador do site, no qual estará detalhado todos os dados do cliente (nome, telefone, email, endereço, etc***) e também mostrará todos os produtos que foram selecionados no site, para que então o responsável tome as medidas necessárias para fechar a venda com o cliente.</p>
+        <p>Os orçamentos feitos pelo website chegarão no e-mail do administrador do site, o qual estará detalhado todos os dados do cliente (nome, telefone, email, endereço, etc***) e também mostrará todos os produtos que foram selecionados no site, para que então o responsável tome as medidas necessárias para fechar a venda com o cliente.</p>
     </li>
     <li>
         <strong>Fale Conosco</strong>
-        <p>Esse será um menu no site no qual será mostrado os dados para contato, e também oferecerá a possibilidade do cliente enviar uma mensagem de contato, na qual ele precisará apenas colocar alguns dados (nome, telefone, email, etc***) e digitar a mensagem desejada. No e-mail do administrador do site chegará a mensagem completa para que ele possa atender um possível interessado dos produtos disponíveis para venda.</p>
+        <p>Este será um menu no site, em que será mostrado os dados para contato da empresa e também oferecerá a possibilidade do cliente enviar uma mensagem de contato, na qual ele precisará apenas colocar alguns dados pessoais (nome, telefone, email, etc***) e digitar a mensagem desejada. No e-mail do administrador do site, chegará a mensagem completa para que ele possa atender a um possível interessado dos produtos disponíveis para venda. Essa parte do site será interessante em ajudar quem possa possuir alguma dúvida e queira soluciona-la enviando uma mensagem para a empresa. </p>
         <p>Essa parte do site será interessante em ajudar quem tiver alguma dúvida e queira mandar uma mensagem para a empresa</p>
     </li>
     <li>
         <strong>Portal de acesso</strong>
-        <p>Os produtos do site poderão ser administrados pelo próprio contratante através de um portal de acesso, no qual irá mostrar todos os produtos cadastrados, será possível editar um produto (alterar nome, preço, fotos, quantidade mínima) excluir um possível produto que saiu de linha ou cadastrar um novo produto.</p>
-        <p>O portal de acesso será útil para manutenções periódicas nos produtos do site, caso tenha alterações nos preços (promoções, reajustes) ou novas produções na empresa, um recurso que possibilirá manter o site sempre atualizado de maneira veloz e simples. Essas alterações poderão ser feitas no momento desejado e quantas vezes for necessário sem nenhum custo por modificação ou novos produtos cadastrados.</p>
+        <p>Os produtos do site poderão ser administrados pelo próprio contratante através de um portal de acesso, no qual irá mostrar todos os produtos cadastrados. Será possível editar um produto (alterar nome, preço, fotos, quantidade mínima) excluir algum produto que eventualmente possa sair de linha ou cadastrar um novo produto.</p>
+        <p>O portal de acesso será útil para as manutenções periódicas dos produtos do site caso tenha alterações nos preços (promoções, reajustes) ou novas produções na empresa, esse é um recurso que possibilitará manter o site sempre atualizado de maneira rápida e simples. Essas alterações poderão ser feitas no momento desejado e quantas vezes forem necessárias sem nenhum custo por modificação ou novos produtos cadastrados.</p>
     </li>
 </ul>
 
