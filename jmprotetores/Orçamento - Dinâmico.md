@@ -33,8 +33,8 @@ Telefone: (62) 985367212
     </li>
     <li>
         <strong>Fale Conosco</strong>
-        <p>Este será um menu no site, em que será mostrado os dados para contato da empresa e também oferecerá a possibilidade do cliente enviar uma mensagem de contato, na qual ele precisará apenas colocar alguns dados pessoais (nome, telefone, email, etc***) e digitar a mensagem desejada. No e-mail do administrador do site, chegará a mensagem completa para que ele possa atender a um possível interessado dos produtos disponíveis para venda. Essa parte do site será interessante em ajudar quem possa possuir alguma dúvida e queira soluciona-la enviando uma mensagem para a empresa. </p>
-        <p>Essa parte do site será interessante em ajudar quem tiver alguma dúvida e queira mandar uma mensagem para a empresa</p>
+        <p>Este será um menu no site, em que será mostrado os dados para contato da empresa e também oferecerá a possibilidade do cliente enviar uma mensagem de contato, na qual ele precisará apenas colocar alguns dados pessoais (nome, telefone, email, etc***) e digitar a mensagem desejada. No e-mail do administrador do site, chegará a mensagem completa para que ele possa atender a um possível interessado dos produtos disponíveis para venda.</p>
+        <p>Essa parte do site será interessante em ajudar quem possui alguma dúvida e queira soluciona-la enviando uma mensagem para a empresa.</p>
     </li>
     <li>
         <strong>Portal de acesso</strong>
