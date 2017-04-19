@@ -38,11 +38,6 @@ O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas 
         <p>Esse será um menu no site no qual será mostrado os dados para contato, e também oferecerá a possibilidade do cliente enviar uma mensagem de contato, na qual ele precisará apenas colocar alguns dados (nome, telefone, email, etc***) e digitar a mensagem desejada. No e-mail do administrador do site chegará a mensagem completa para que ele possa atender um possível interessado dos produtos disponíveis para venda.</p>
         <p>Essa parte do site será interessante em ajudar quem tiver alguma dúvida e queira mandar uma mensagem para a empresa</p>
     </li>
-    <li>
-        <strong>Portal de acesso</strong>
-        <p>Os produtos do site poderão ser administrados pelo próprio contratante através de um portal de acesso, no qual irá mostrar todos os produtos cadastrados, será possível editar um produto (alterar nome, preço, fotos, quantidade mínima) excluir um possível produto que saiu de linha ou cadastrar um novo produto.</p>
-        <p>O portal de acesso será útil para manutenções periódicas nos produtos do site, caso tenha alterações nos preços (promoções, reajustes) ou novas produções na empresa, um recurso que possibilirá manter o site sempre atualizado de maneira veloz e simples. Essas alterações poderão ser feitas no momento desejado e quantas vezes for necessário sem nenhum custo por modificação ou novos produtos cadastrados.</p>
-    </li>
 </ul>
 
 <h3>Relação de Custo X Valor</h3>
