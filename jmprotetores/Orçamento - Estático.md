@@ -7,7 +7,7 @@ E-mail: samuel.rcosta@hotmail.com.br<br />
 Telefone: (62) 985367212
 </h5>
 <h2>Contratante: Jairo</h2>
-<h5>O site da JM Protetores será desenvolvido em php 5.6, funcionará como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa e os produtos à venda, então poderá fazer um orçamento online que chegará no e-mail do administrador do site, para que assim possa ser dado continuidade a venda por parte do contratante.</h5>
+<h5>O site da JM Protetores será desenvolvido em php 5.6, funcionando como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa e os produtos à venda, então poderá fazer um orçamento online que chegará no e-mail do administrador do site, para que assim possa ser dado continuidade a venda por parte do contratante.</h5>
 
 <h3>Compromisso</h3>
 <p>Construir um site que amplie a acessibilidade e a visibilidade da empresa e de seus produtos.</p>
