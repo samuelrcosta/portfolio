@@ -7,12 +7,12 @@ E-mail: samuel.rcosta@hotmail.com.br<br />
 Telefone: (62) 985367212
 </h5>
 <h2>Contratante: Jairo</h2>
-<h5>O site da JM Protetores será desenvolvido em php 5.6, funcionará como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa e os produtos à venda, então poderá fazer um orçamento online que chegará no e-mail do administrador do site, para que assim possa ser dado continuidade a venda por parte do contratante. Serão utilizados recursos de visualização de imagens, carrinho de produtos e envio de e-mails.</h5>
+<h5>O site da JM Protetores será desenvolvido em php 5.6, funcionará como um catálogo virtual, no qual o cliente poderá ver os dados de contato da empresa e os produtos à venda, então poderá fazer um orçamento online que chegará no e-mail do administrador do site, para que assim possa ser dado continuidade a venda por parte do contratante.</h5>
 
 <h3>Compromisso</h3>
 <p>Construir um site que amplie a acessibilidade e a visibilidade da empresa e de seus produtos.</p>
 <h3>Objetivo</h3>
-<p>Trazer visibilidade aos produtos oferecidos pela empresa, de forma que os motores de busca (Ex.: Google) mostre sua empresa e produtos quando pesquisado, dessa maneira a empresa poderá conquistar novos clientes através dessa nova plataforma.<br />
+<p>Trazer visibilidade aos produtos oferecidos pela empresa, de forma que os motores de busca (Ex.: Google) mostre sua empresa e produtos quando pesquisado, dessa maneira a empresa poderá conquistar novos clientes através dessa nova plataforma de divulgação e vendas.<br />
 O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas e os recursos necessários para construção e publicação do WebSite. Alguns valores são cobrados anualmente, os que correspondem aos serviços de domínio.</p>
 
 <h3>Descrição da proposta</h3>
