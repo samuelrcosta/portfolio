@@ -23,7 +23,7 @@ O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas 
     </li>
     <li>
         <strong>Produtos</strong>
-        <p>O site irá mostrar uma listagem completa de todos os produtos disponíveis para compra. Em cada produto ficará registrado um grupo de imagens, no qual será definido uma principal e outras que aparecerão quando clicado sobre a imagem do produto, assim o cliente poderá ver o produto em várias perspectivas diferente.</p>
+        <p>O site irá mostrar uma listagem completa de todos os produtos disponíveis para compra. Em cada produto ficará registrado um grupo de imagens, no qual será definido uma principal e outras que aparecerão quando clicado sobre a imagem do produto, assim o cliente poderá ver o produto em várias perspectivas diferentes.</p>
     </li>
     <li>
         <strong>Orçamento e Carrinho de compras</strong>
@@ -31,7 +31,7 @@ O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas 
     </li>
     <li>
         <strong>Envio automático de E-mail</strong>
-        <p>Os orçamentos feitos pelo website chegarão no e-mail do administrador do site, no qual estará detalhado todos os dados do cliente (nome, telefone, email, endereço, etc***), também mostrará todos os produtos selecionados no site, para que então o responsável tome as medidas necessárias para fechar a venda com o cliente.</p>
+        <p>Os orçamentos feitos pelo website chegarão no e-mail do administrador do site, no qual estará detalhado todos os dados do cliente (nome, telefone, email, endereço, etc***) e também mostrará todos os produtos que foram selecionados no site, para que então o responsável tome as medidas necessárias para fechar a venda com o cliente.</p>
     </li>
     <li>
         <strong>Fale Conosco</strong>
@@ -120,5 +120,6 @@ O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas 
 
 <h3>Observações</h3>
 <p>* O valor de renovação domínio é definido em R$ 40,00 por ano. Esse serviço é pago diretamente para o fornecedor, o desenvolvedor emitirá o boleto e cadastrará o domínio para a criação do site.</p>
-<p>** Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do contratante sem nenhum problema. Caso algum problema para o site seja apresentado pela hospedagem gratuita, será necessário a contratação de um serviço pago, os valores praticados pela empresa de hospedagem brasileira Locaweb hoje é de R$ 370,80 anuais.</p>
+<p>** Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do contratante sem nenhum problema. Caso ocorra algum problema para o site devido o serviço gratuito de hospedagem, será necessário a contratação de um serviço pago, os valores praticados pela empresa de hospedagem brasileira Locaweb hoje é de R$ 370,80 anuais.</p>
 <p>*** Os dados que serão captados do cliente no momento de envio de um orçamento ou de uma mensagem serão acertados posteriormente com o contrante, ele decidirá os dados que deseja obter do cliente.</p>
+<p>No site desenvolvido de forma estática, futuras atualizações nos produtos deverão ser feitas pelo desenvolvedor, pois não existirá um portal de acesso para o administrador, cada manutenção realizada pelo desenvolvedor após a entrega do site a aprovação do contratante será cobrado um valor acertado a parte desse orçamento.
