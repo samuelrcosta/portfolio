@@ -31,11 +31,11 @@ O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas 
     </li>
     <li>
         <strong>Envio automático de E-mail</strong>
-        <p align="justify">Os orçamentos feitos pelo website chegarão no e-mail do administrador do site, o qual estará detalhado todos os dados do cliente (nome, telefone, email, endereço, etc***) e também mostrará todos os produtos que foram selecionados no site, para que então o responsável tome as medidas necessárias para fechar a venda com o cliente.</p>
+        <p align="justify">Os orçamentos feitos pelo website chegarão no e-mail do administrador do site, o qual estará detalhado todos os dados do cliente (nome, telefone, email, endereço, etc&#42;&#42;&#42;) e também mostrará todos os produtos que foram selecionados no site, para que então o responsável tome as medidas necessárias para fechar a venda com o cliente.</p>
     </li>
     <li>
         <strong>Fale Conosco</strong>
-        <p align="justify">Este será um menu no site, em que será mostrado os dados para contato da empresa e também oferecerá a possibilidade do cliente enviar uma mensagem de contato, na qual ele precisará apenas colocar alguns dados pessoais (nome, telefone, email, etc***) e digitar a mensagem desejada. No e-mail do administrador do site, chegará a mensagem completa para que ele possa atender a um possível interessado dos produtos disponíveis para venda.</p>
+        <p align="justify">Este será um menu no site, em que será mostrado os dados para contato da empresa e também oferecerá a possibilidade do cliente enviar uma mensagem de contato, na qual ele precisará apenas colocar alguns dados pessoais (nome, telefone, email, etc&#42;&#42;&#42;) e digitar a mensagem desejada. No e-mail do administrador do site, chegará a mensagem completa para que ele possa atender a um possível interessado dos produtos disponíveis para venda.</p>
         <p align="justify">Essa parte do site será interessante em ajudar quem possui alguma dúvida e queira soluciona-la enviando uma mensagem para a empresa.</p>
     </li>
 </ul>
@@ -52,7 +52,7 @@ O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas 
 </tr>
 <tr>
     <td>
-        Criação do Domínio e registro por 1 ano*
+        Criação do Domínio e registro por 1 ano&#42;
     </td>
     <td>
         R$ 40,00
@@ -63,7 +63,7 @@ O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas 
         Hospedagem do site
     </td>
     <td>
-        Gratuito**
+        Gratuito&#42;&#42;
     </td>
 </tr>
 <tr>
@@ -114,7 +114,7 @@ O orçamento tem o objetivo de ilustrar as ferramentas que serão desenvolvidas 
 </table>
 
 <h3>Observações</h3>
-<p align="justify">* O valor de renovação domínio é definido pelo valor de R$ 40,00 por ano. Esse serviço é pago diretamente para o fornecedor, o desenvolvedor emitirá o boleto e cadastrará o domínio para a criação do site.</p>
-<p align="justify">** Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do contratante sem nenhum problema. Caso ocorra algum problema para o site devido o serviço gratuito de hospedagem, será necessária a contratação de um serviço pago, os valores praticados pela empresa de hospedagem brasileira Locaweb hoje é de R$ 370,80 anuais.</p>
-<p align="justify">*** Os dados que serão captados do cliente no momento de envio de um orçamento ou de uma mensagem serão acertados posteriormente com o contrante, pois ele decidirá os dados que deseja obter do cliente.</p>
+<p align="justify">&#42; O valor de renovação domínio é definido pelo valor de R$ 40,00 por ano. Esse serviço é pago diretamente para o fornecedor, o desenvolvedor emitirá o boleto e cadastrará o domínio para a criação do site.</p>
+<p align="justify">&#42;&#42; Na hospedagem o desenvolvedor recomenda um teste operacional em um serviço gratuito (Webhost ou Hostinger), pois a quantidade de acessos e dados gravados serão relativamentes pequenos, podendo atender às necessidades do contratante sem nenhum problema. Caso ocorra algum problema para o site devido o serviço gratuito de hospedagem, será necessária a contratação de um serviço pago, os valores praticados pela empresa de hospedagem brasileira Locaweb hoje é de R$ 370,80 anuais.</p>
+<p align="justify">&#42;&#42;&#42; Os dados que serão captados do cliente no momento de envio de um orçamento ou de uma mensagem serão acertados posteriormente com o contrante, pois ele decidirá os dados que deseja obter do cliente.</p>
 <p align="justify">No site desenvolvido de forma estática, futuras atualizações nos produtos deverão ser feitas pelo desenvolvedor, pois não existirá um portal de acesso para o administrador, quaisquer alterações necessárias após a entrega do site finalizado ao contratante, que não estejam ligadas a eventuais erros no site serão atreladas a um valor cobrado posteriormente acertado à parte desse orçamento.</p>
