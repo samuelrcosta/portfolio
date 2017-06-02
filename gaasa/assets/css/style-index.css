@@ -1,0 +1,286 @@
+body{
+    background-image: url('../imgs/fundo1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.row{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main{
+    color: white;
+}
+
+.topo{
+    width: 100%;
+    height: 120px;
+    color: white;
+}
+
+nav{
+    background-color: black;
+    border-bottom: solid 2px #D7722C;
+}
+
+.topo div{
+    float: left;
+}
+
+.topo-titulo{
+    line-height: 120px;
+    font-size: 25px;
+    margin-top: 9px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.topo-titulo h2{
+    border-top: solid 5px white;
+    height: 72px;
+    line-height: 19px;
+    font-size: 15px;
+    text-align: right;
+}
+
+.topo-titulo h1{
+    font-size: 30px;
+    margin-bottom: 5.5px;
+}
+
+.conteudo{
+    padding: 10px;
+}
+
+.local{
+    padding: 10px;
+}
+
+#construcao h4{
+    margin: 0;
+    line-height: 50px;
+    background-color: rgba(0,0,0,.8);
+    font-size: 28px;
+}
+
+#construcao{
+    height: 55px;
+}
+
+.hr1{
+    margin-top: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hr{
+    margin-top: 7px;
+    margin-bottom: 13px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.area-contato{
+    height: 100px;
+}
+
+.area-contato-box{
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.area-contato a{
+    color: white;
+}
+
+.area-contato-img{
+    height: 64px;
+    line-height: 64px;
+    float: left;
+}
+
+.area-contato-email-1{
+    height: 64px;
+    line-height: 64px;
+    margin-left: 10px;
+    float: left;
+}
+
+.area-contato-email-2{
+    line-height: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    float: left;
+}
+
+.img{
+    cursor: pointer;
+    width: 50px;
+}
+
+
+.area-telefone img{
+    width: 50px;
+}
+
+.area-telefone-imagem{
+    height: 64px;
+    line-height: 64px;
+    float: left;
+}
+
+.area-telefone-numero{
+    height: 64px;
+    line-height: 64px;
+    margin-left: 10px;
+    float: left;
+}
+
+.menu{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    float: left;
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-top: solid 2px #D7722C;
+    color: white;
+    font-size: 13px;
+}
+
+.footer .container{
+    line-height: 18px;
+    text-align: center;
+    margin-top: 5px;
+    display: block;
+}
+
+.footer a{
+    color: #04883D;
+    cursor: pointer;
+}
+
+.footer a:hover{
+    color: #D7722C;
+}
+
+.contatos_box {
+    margin-top: 10px;
+    border: rgba(255, 255, 255, 0.4) 1px solid;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contatos_box .title {
+    position: relative;
+    top : -0.5em;
+    margin-left: 1em;
+    display: inline;
+    color: white;
+    background-color: #04883D;
+    padding: 10px;
+}
+
+.contatos_box .content {
+    padding: 20px;
+}
+
+.alert-success {
+    background-color: #D7722C;
+    border-color: #D7722C;
+    color: white;
+}
+
+@media only screen and (max-width: 533px) {
+    .footer {
+        height: 70px;
+    }
+
+    .footer .container {
+        line-height: 15px;
+        margin-top: 17px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .topo-titulo h1 {
+        font-size: 22px;
+    }
+    .topo div {
+        text-align: right;
+    }
+    .topo-titulo {
+        margin-top: 18px;
+    }
+    .topo-titulo h1 {
+        line-height: 18px;
+        font-size: 13px;
+    }
+    #construcao h4 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 409px) {
+    .footer .container {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .topo-titulo h1 {
+        font-size: 17px;
+    }
+    .topo-titulo {
+        margin-top: 24px;
+        margin-right: 10px;
+    }
+
+    .area-contato{
+        height: 90px;
+    }
+
+    .area-contato h5{
+        font-size: 17px;
+    }
+
+    .area-telefone-numero {
+        font-size: 11.5px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .area-contato{
+        height: 100px;
+    }
+    .img{
+        width: 45px;
+    }
+
+    .area-telefone img{
+        width: 45px;
+    }
+}

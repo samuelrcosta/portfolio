@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Kitchen Police";
+    src: url("../fonts/kitchenpolice.ttf");
+}
+
+body{
+    background-image: url('../imgs/fundo1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a{
+    color: white;
+}
+
+.btn{
+    font-size: 15.5px;
+}
+
+#topo {
+    top: 0;
+    position: fixed;
+    background-color: #3E3E3E;
+    height: 70px;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+#img-topo {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    transition: linear 0.2s;
+}
+
+.titulo-topo{
+    float: left;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin-left: 10px;
+    font-family: "Kitchen Police";
+    transition: linear 0.1s;
+}
+
+.titulo-topo:hover{
+    color: #8c8c8c;
+    font-size: 26px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+#img-topo:hover{
+    height: 55px;
+    margin-top: 7.5px;
+    margin-left: 7.5px;
+}
+
+.botao-topo-entrar{
+    float: right;
+    margin-right: 10px;
+    width: 130px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.botao-topo-cadastrar{
+    float: right;
+    margin-right: 10px;
+    width: 130px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.botao-topo-responsivo{
+    float: right;
+    display: none;
+    margin-right: 19px;
+    cursor: pointer;
+    margin-top: 19px;
+}
+
+#dropdown{
+    display: none;
+    position: fixed;
+    float: right;
+    width: 110px;
+    top: 70px;
+    right: 0;
+}
+
+#dropdown a{
+    color: #3E3E3E;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #3E3E3E;
+    color: #CCCCCC;
+    line-height: 60px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.contato {
+    float: right;
+}
+
+.contato a{
+    color: #CCCCCC;
+}
+
+.contato a:hover{
+    color: white;
+}
+
+.principal{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+}
+
+.content{
+    font-family: "Copse";
+    padding: 20px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin-left: -411.5px;
+    margin-top: -219px;
+}
+
+.content a:hover{
+    color: #3E3E3E;
+}
+
+.botao-cadastrar{
+    font-size: 18px;
+    padding: 8px 14px;
+}
+
+#content-msg{
+    font-size: 37px;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 780px) {
+    .content {
+        font-size: 20px;
+        margin-left: -337.5px;
+        margin-top: -171px;
+    }
+    #content-msg{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .content {
+        padding: 15px;
+        font-size: 15px;
+        margin-left: -232px;
+        margin-top: -139.5px;
+    }
+    #content-msg{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .botao-topo-cadastrar{
+        display: none;
+    }
+    .botao-topo-entrar{
+        display: none;
+    }
+    .botao-topo-responsivo {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    .content {
+        padding: 10px;
+        font-size: 12px;
+        margin-left: -178.5px;
+        margin-top: -111.5px;
+    }
+    #content-msg{
+        font-size: 15px;
+    }
+
+    .footer{
+        font-size: 11px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 377px) {
+    .contato{
+        float: none;
+    }
+}

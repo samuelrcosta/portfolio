@@ -59,10 +59,10 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
         }
     }else{
         $_SESSION['retorno'] = 6;
-        header("Location:index.php");
+        header("Location:home");
     }
 }else{
     $_SESSION['retorno'] = 8;
-    header("Location:index.php");
+    header("Location:home");
 }
 ?>

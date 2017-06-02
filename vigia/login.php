@@ -11,7 +11,7 @@ if (isset($_SESSION['id']) && $_SESSION['id'] != -1){
         }
     }
 }
-if ($_SESSION['retorno'] != null && $_SESSION['retorno'] != 0 ){
+if (isset($_SESSION['retorno']) && $_SESSION['retorno'] != null && $_SESSION['retorno'] != 0 ){
     if($_SESSION['retorno'] == 99){
         echo "<div id='retornosessao' style='margin-bottom: 5px;margin-top: 5px' class=\"alert alert-success fade in\">
                 E-mail enviado com sucesso!
@@ -28,7 +28,7 @@ if ($_SESSION['retorno'] != null && $_SESSION['retorno'] != 0 ){
     <title>Login</title>
     <link rel='shortcut icon' href="assets/imgs/icon.png" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/style_index.css"/>
+    <link rel="stylesheet" href="assets/css/style_home.css"/>
     <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript">
         function enviar() {
@@ -82,6 +82,10 @@ if ($_SESSION['retorno'] != null && $_SESSION['retorno'] != 0 ){
                 margin-left: -140px;
             }
         }
+        #link:hover{
+            color: white;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -96,6 +100,7 @@ if ($_SESSION['retorno'] != null && $_SESSION['retorno'] != 0 ){
                 <input class="btn btn-info btnentrar" style="display: none" type="submit" name="enviar" id="enviar" value="Entrar" style="margin-right: 8px">
             </form>
             <button class="btn btn-success" style="margin-right: 5px;margin-bottom: 5px" onclick="enviar()">Entrar</button>
+            <button class="btn btn-danger" style="margin-right: 5px;margin-bottom: 5px" onclick="location.href='index'">Cancelar</button>
             <?php
                 if(isset($_POST['email']) && empty($_POST['email']) == false){
                     $email = addslashes($_POST['email']);
@@ -112,7 +117,7 @@ if ($_SESSION['retorno'] != null && $_SESSION['retorno'] != 0 ){
                                 if($_POST['per'] == 0){
                                     $_SESSION['permissao'] = 0;
                                 }
-                                header("Location: index.php");
+                                header("Location: home");
                             }
                             else{
                                 echo "<div style='margin-bottom: 5px;margin-top: 5px' class=\"alert alert-danger fade in\">
@@ -132,8 +137,8 @@ if ($_SESSION['retorno'] != null && $_SESSION['retorno'] != 0 ){
                     }
                 }
             ?>
-            <button class="btn btn-info" style="margin-right: 5px;margin-bottom: 5px" onclick="location.href='cadastrar.php'">Cadastrar</button>
-            <button class="btn btn-info" style="margin-right: 5px;margin-bottom: 5px" onclick="location.href='enviar.php'" >Enviar E-mail</button>
+            <br/>
+            <span>Não tem cadastro? </span><a id="link" href="cadastrar">clique aqui para se cadastrar</a>
         </div>
     </div>
     <script>

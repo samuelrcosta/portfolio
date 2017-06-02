@@ -9,7 +9,7 @@ require 'config.php';
     <title>Cadastro</title>
     <link rel='shortcut icon' href="assets/imgs/icon.png" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/style_index.css"/>
+    <link rel="stylesheet" href="assets/css/style_home.css"/>
     <link rel="stylesheet" href="assets/css/style-editar.css"/>
     <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
 </head>
@@ -17,8 +17,8 @@ require 'config.php';
 <div class="container">
     <div class="cabecalho">
         <div class="cabecalho-titulo" style="margin-bottom: 15px;">
-            <a href="index.php"><img width="100" height="100" src="assets/imgs/seg_gg.png"/></a>
-            <a href="index.php" style="color: #333"><h1>School Guard</h1></a>
+            <a href="home.php"><img width="100" height="100" src="assets/imgs/seg_gg.png"/></a>
+            <a href="home.php" style="color: #333"><h1>School Guard</h1></a>
         </div>
     </div>
     <div class="conteudo">
@@ -100,7 +100,7 @@ require 'config.php';
     }
 
     function cancelar() {
-        window.location="login.php";
+        window.location="index";
     }
 
     function enviar() {
@@ -117,7 +117,7 @@ require 'config.php';
             $.post("cadu.php", {email: email, usuario: usuario, aluno:aluno, senha:senha, confsenha:confsenha}, function (get_retorno) {
                 complete:
                     if(get_retorno == 1){
-                        window.location="index.php";
+                        window.location="home.php";
                     } else{
                         $("#retorno").show("slow").html("<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>"+get_retorno);
                     }

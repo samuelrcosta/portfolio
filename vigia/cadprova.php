@@ -13,11 +13,11 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
     if($_SESSION['permissao'] == 1){
     } else{
         $_SESSION['retorno'] = 8;
-        header("Location:index.php");
+        header("Location:home.php");
     }
 }else{
     $_SESSION['retorno'] = 6;
-    header("Location:index.php");
+    header("Location:home.php");
 }
 ?>
 <!DOCTYPE html>
@@ -27,7 +27,7 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
     <title>Cadastrar prova</title>
     <link rel='shortcut icon' href="assets/imgs/icon.png" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/style_index.css"/>
+    <link rel="stylesheet" href="assets/css/style_home.css"/>
     <link rel="stylesheet" href="assets/css/style-editar.css"/>
     <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
 </head>
@@ -35,11 +35,11 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
 <div class="container">
     <div class="cabecalho">
         <div class="cabecalho-titulo" style="margin-bottom: 15px;">
-            <a href="index.php"><img width="100" height="100" src="assets/imgs/seg_gg.png"/></a>
-            <a href="index.php" style="color: #333"><h1>School Guard</h1></a>
+            <a href="home.php"><img width="100" height="100" src="assets/imgs/seg_gg.png"/></a>
+            <a href="home.php" style="color: #333"><h1>School Guard</h1></a>
             <div class="botoes">
                 <div style="float: right;">
-                    <a href="index.php"><button class="btn btn-info btnlogin">Voltar</button></a>
+                    <a href="home.php"><button class="btn btn-info btnlogin">Voltar</button></a>
                     <a href="boletim.php"><button style="display: none" class="btn btn-info btnboletim">Boletim</button></a>
                 </div>
             </div>
@@ -146,7 +146,7 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
         </div>
         <button style="margin-top: 5px;margin-bottom: 5px;margin-right: 4px;" id="cad1" class="btn btn-success" onclick="enviar1()">Cadastrar</button>
         <button style="margin-top: 5px;margin-bottom: 5px;margin-right: 4px;" id="cad2" class="btn btn-success" onclick="enviar2()">Cadastrar e continuar</button>
-        <button style="margin-top: 5px;margin-bottom: 5px;margin-right: 4px;" class="btn btn-danger" onclick="location.href='index.php'">Cancelar</button>
+        <button style="margin-top: 5px;margin-bottom: 5px;margin-right: 4px;" class="btn btn-danger" onclick="location.href='home'">Cancelar</button>
     </div>
 </div>
 <script type="text/javascript">
@@ -200,7 +200,7 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
             $.post("cadp.php", {materia: materia, professor: professor, data:data, nota:nota, tipo:tipo, bimestre:bimestre, anotacoes:anotacoes, retorno:retorno}, function (get_retorno) {
                 complete:
                     if(get_retorno == 1){
-                        window.location="index.php";
+                        window.location="home.php";
                     } else{
                         $("#retorno").show("slow").html("<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>"+get_retorno);
                     }

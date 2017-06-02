@@ -5,7 +5,7 @@ $tabela = $_SESSION['tabela'];
 if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] != -1){
 }else{
     $_SESSION['retorno'] = 6;
-    header("Location:index.php");
+    header("Location:home.php");
 }
 ?>
 <!DOCTYPE html>
@@ -20,14 +20,14 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
 <div class="container-fluid">
     <div class="cabecalho">
         <div class="cabecalho-titulo">
-            <div class="img-titulo"><a href="index.php"><img width="100" height="100" src="assets/imgs/seg_gg.png"/></a></div>
-            <a href="index.php" style="color: #333"><h1>School Guard</h1></a>
+            <div class="img-titulo"><a href="home.php"><img width="100" height="100" src="assets/imgs/seg_gg.png"/></a></div>
+            <a href="home.php" style="color: #333"><h1>School Guard</h1></a>
             <div class="botoes">
                 <div>
                     <h3 id = "painel-data">Dia: </h3>
                 </div>
                 <div style="float: right;">
-                    <a href="index.php"><button class="btn btn-info btnlogin">Início</button></a>
+                    <a href="home.php"><button class="btn btn-info btnlogin">Início</button></a>
                 </div>
             </div>
         </div>

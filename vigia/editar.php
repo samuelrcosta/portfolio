@@ -20,19 +20,19 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
                 $bimestre = $sql['bimestre'];
             } else{
                 $_SESSION['retorno'] = 7;
-                header("Location:index.php");
+                header("Location:home");
             }
         } else{
             $_SESSION['retorno'] = 7;
-            header("Location:index.php");
+            header("Location:home");
         }
     } else{
         $_SESSION['retorno'] = 8;
-        header("Location:index.php");
+        header("Location:home");
     }
 }else{
     $_SESSION['retorno'] = 6;
-    header("Location:index.php");
+    header("Location:home");
 }
 ?>
 <!DOCTYPE html>
@@ -42,7 +42,7 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
     <title>Editar prova</title>
     <link rel='shortcut icon' href="assets/imgs/icon.png" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/style_index.css"/>
+    <link rel="stylesheet" href="assets/css/style_home.css"/>
     <link rel="stylesheet" href="assets/css/style-editar.css"/>
     <script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
 </head>
@@ -50,12 +50,12 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
     <div class="container">
         <div class="cabecalho">
             <div class="cabecalho-titulo" style="margin-bottom: 15px;">
-                <a href="index.php"><img width="100" height="100" src="assets/imgs/seg_gg.png"/></a>
-                <a href="index.php" style="color: #333"><h1>School Guard</h1></a>
+                <a href="home"><img width="100" height="100" src="assets/imgs/seg_gg.png"/></a>
+                <a href="home" style="color: #333"><h1>School Guard</h1></a>
                 <div class="botoes">
                     <div style="float: right;">
-                        <a href="index.php"><button class="btn btn-info btnlogin">Voltar</button></a>
-                        <a href="boletim.php"><button style="display: none" class="btn btn-info btnboletim">Boletim</button></a>
+                        <a href="home"><button class="btn btn-info btnlogin">Voltar</button></a>
+                        <a href="boletim"><button style="display: none" class="btn btn-info btnboletim">Boletim</button></a>
                     </div>
                 </div>
             </div>
@@ -196,8 +196,8 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
                 <a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>
             </div>
             <button class="btn btn-success" style="margin-bottom: 5px" onclick="atualizar()">Atualizar</button>
-            <button class="btn btn-danger" style="margin-bottom: 5px" onclick="location.href='index.php'">Cancelar</button>
-            <button id="excluir" class="btn btn-danger"style="margin-bottom: 5px">Excluir prova</button>
+            <button class="btn btn-danger" style="margin-bottom: 5px" onclick="location.href='home'">Cancelar</button>
+            <button id="excluir" class="btn btn-danger" style="margin-bottom: 5px">Excluir prova</button>
         </div>
     </div>
     <div id="bgbox" style="display: none"></div>
@@ -251,7 +251,7 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
                 $.post("editpd.php", {n:n, materia: materia, professor: professor, data:data, nota:nota, tipo:tipo, bimestre:bimestre, anotacoes:anotacoes, retorno:retorno}, function (get_retorno) {
                     complete:
                         if(get_retorno == 1){
-                            window.location="index.php";
+                            window.location="home";
                         } else{
                             $("#retorno").show("slow").html(get_retorno);
                         }
@@ -281,7 +281,7 @@ if(isset($_SESSION['id']) && empty($_SESSION['id']) == false && $_SESSION['id'] 
                 {
                     var resp = result;
                     if(resp == 1){
-                        window.location="index.php";
+                        window.location="home";
                     } else{
                         alert("Erro");
                     }
