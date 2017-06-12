@@ -1,6 +1,7 @@
 <?php
 require 'banco.php';
 require 'usuarios.php';
+require 'usuario.php';
 date_default_timezone_set('America/Sao_Paulo');
 /*
 $banco = new Banco("localhost", "gaasa", "root", "root");
@@ -28,7 +29,19 @@ foreach ($banco->result() as $resultado){
     echo "Data: ".$resultado['data']."<br><br>";
 }
 */
+/*
+ *
 $usuario = new Usuarios();
 print_r($usuario->selecionar("4"));
 $usuario->excluir(4);
 print_r($usuario->selecionar("4"));
+
+*/
+
+$usuario = new Usuario();
+
+$usuario->setEmail("victor@teste.com");
+$usuario->setNome("Vitor");
+$usuario->setSenha("123");
+
+$usuario->salvar();

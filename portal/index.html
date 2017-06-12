@@ -38,6 +38,7 @@
     </div>
     <div class="menu">
         <nav>
+            <img src="assets/images/menu.png" id="menu-mobile" onclick="toggleMenu()" border="0">
             <ul class="menuint">
                 <li><a href="">Home</a></li>
                 <li><a href="">Economia</a></li>
@@ -61,7 +62,7 @@
                 </li>
                 <li><a href="">Geral</a></li>
                 <li class="drop">
-                    <a href="">Notícias<img src="assets/images/arrowdown.png" width="12px"></a>
+                    <a href="">Notícias<img class="arrow" src="assets/images/arrowdown.png" width="12px"></a>
                     <ul class="down">
                         <li><a href="submenuitem">Sub-menu 1</a></li>
                         <li><a href="submenuitem">Sub-menu 2</a></li>
@@ -93,7 +94,7 @@
                         <div class="bolinha" id="bolinha3" onclick="mudarSlide(3)"></div>
                     </div>
                     <div class="slideshowarea">
-                        <div class="slide" style="background-image: url('assets/images/slide1.jpg')">
+                        <div class="slide" style="background-image: url('assets/images/slide1.jpg');">
                             <div class="slideinfo">
                                 <div class="slideinfo-titulo"><a href="">Título de teste da primeira notícia</a></div>
                                 <div class="slideinfo-subtitulo"><a href="">Subtítulo de teste da primeira notícia, esse pode ser maior né.</a></div>
@@ -119,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="widget">
+                <div class="widget" id="widget-noticias">
                     <div class="widget-titulo">NOTÍCIAS</div>
                     <div class="widget-conteudo">
                         <div class="widget-leftside">
@@ -203,7 +204,7 @@
                                     <img src="assets/images/esp_4.jpg" border="0" width="80px" height="80px"/>
                                 </div></a>
                                 <a href="#"><div class="noticiatitulo">Aqui eu quero um título menor para testar uma info maior</div></a>
-                                <a href="#"><div class="noticiainfo">O governo Temer busca renovar a economia do Brasil asaf as af fas fas ag gas asg ag as</div></a>
+                                <a href="#"><div class="noticiainfo">O governo Temer busca renovar a economia do Brasil</div></a>
                             </div>
                         </div>
                         <div style="clear: both"></div>
